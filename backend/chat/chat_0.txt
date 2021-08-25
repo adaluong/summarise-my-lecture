@@ -1,0 +1,336 @@
+-14:09 | (Owner) Marc Chee: Good Morning!
+-13:05 | Izy Z: Morning! 
+-7:30 | Srikar Danthurty: hey marc do you know if there any comp courses in unsw that teach R?
+-5:12 | (Moderator) Michael Gribben: hi
+-5:00 | (Owner) Marc Chee: I don't know sorry . . . I've barely heard of R and had to look it up just then! But that doesn't mean that no one's teaching it
+-4:28 | (Owner) Marc Chee: There are actually a lot of courses even in CSE that I don't know the details of (or what specific language they're using)
+-4:03 | (Owner) Marc Chee: Hi @Michael Gribben 
+-3:46 | Lorenzo Grillo: morning!!!
+-3:41 | Blake Morris: Good morning :)
+-2:40 | (Moderator) Michael Gribben: Hello @Marc Chee 
+-1:21 | (Moderator) Michael Gribben: I think DATA1001 has some R - no idea how much depth it goes into it
+-0:39 | Srikar Danthurty: yeh haha im doing data science so thats why i was asking
+-0:24 | Joseph Wong: Hello!
+1:28 | john xina: Tired af 
+1:36 | (Moderator) Michael Gribben: audio is good :slightly_smiling_face:
+1:43 | Markus N: ^
+2:08 | Blake Morris: sameeee
+2:45 | Markus N: feels like only 2 days after the 1st assignment
+3:05 | (Moderator) Michael Gribben: https://cgi.cse.unsw.edu.au/~cs1511/21T1/assignments/ass2/index.html
+3:21 | (Moderator) Michael Gribben: Assignment 2 ^^ autotests should be working...
+3:26 | Hussain Nawaz: Day after math exam :disappointed_face:
+4:06 | Markus N: same lmao
+4:46 | Zihang Xu: all of the students will do final exam at the same time?
+4:53 | Markus N: the exam timetable still says we have to consult the school for times
+5:17 | Bhuvanish Mutharia: just think of it as a 4 week holiday 
+5:26 | Lorenzo Grillo: hmmm 
+5:29 | (Moderator) Michael Gribben: @Markus N the course will release more info later about the exact time but the date is now set
+5:42 | Joseph Wong: don't worry, you can bump up our marks even if they dont drop?
+5:54 | (Moderator) Michael Gribben: @Zihang Xu yep (except for special considerations)
+6:01 | Cameron Mayhew: Is it a 2 hour exam?
+6:12 | Leo Shi: is the exam 6 hours long?
+6:19 | Markus N: oh god 1pm in sydney, this means 11 am, no lunch for me i guess
+6:21 | Hussain Nawaz: @Bhuvanish Mutharia The thought of not having any schoolwork for 4 weeksd is frightening
+6:39 | john xina: h u h
+6:49 | TEJ4321 Tejas: wait so how long is it
+6:56 | Bhuvanish Mutharia: @Hussain Nawaz you're built different ong. I'm counting down the days to holidays
+7:07 | Mag1c: So its essentially a lab
+7:17 | Zihang Xu: Won't vlab crash while so many students are using
+7:25 | john xina: a longass lab
+7:40 | Markus N: are there any past exams for reference?
+7:51 | john xina: they give you extra time for how laggy vlab can get
+7:57 | Hussain Nawaz: @Bhuvanish Mutharia Very desperately need a holiday, I know 2-3 weeks in i will be begging to come back and have something to do
+8:04 | (Moderator) Michael Gribben: The self-tests are great practice for the final exam :slightly_smiling_face:
+8:35 | Leo Shi: will we be able to use autotests in the final exam?
+8:56 | Markus N: usually how many lines of code do we have to pump out in the exam
+9:24 | Zijie Li: By the way what did you guys get in the mid-term exam last week.
+9:35 | (Moderator) Michael Gribben: @Leo Shi very likely be autotests (having said that I'm not involved in the exam...)
+9:46 | Jordan Terz: 69
+9:48 | Jordan Terz: wby
+9:49 | Charzinc: haha 0
+9:50 | Hussain Nawaz: @Zijie Li please no, not again
+9:59 | Bhuvanish Mutharia: @Hussain Nawaz just party bro. it's not that hard
+10:27 | Mack n Cheese: ...midterm?
+10:35 | Mack n Cheese: oh ok
+11:01 | Justin Kim: this exam
+11:06 | Mack n Cheese: :(
+11:33 | Zijie Li: I watched the lecture during weekend and thought I missed out the "void" exam
+11:49 | Mack n Cheese: can't believe I got got a week later
+14:04 | Cameron Mayhew: ooo isn't this a challenge exercise in the labs?
+14:12 | Cameron Mayhew: inserting not into the head
+14:18 | (Moderator) Michael Gribben: ms paint time :face_with_tongue:
+14:31 | (Moderator) Michael Gribben: yep :slightly_smiling_face:
+14:56 | john xina: oh god no
+14:59 | Sarthak Jain: pen pineapple apple pen
+15:00 | Justin Kim: 2016 baby
+15:01 | Lorenzo Grillo: OMG
+15:04 | Sarthak Jain: lol
+15:05 | Cameron Mayhew: next year's april fools??
+15:05 | Lorenzo Grillo: that needs to happen
+15:06 | JianFeng Lin: :red_heart:
+15:07 | TEJ4321 Tejas: please do it
+15:10 | JianFeng Lin: My fav
+15:14 | Markus N: marc chee cosplay stream when
+15:18 | TEJ4321 Tejas: the colours are gonna match the marccoin
+15:22 | Ben Godw: ppap was 5 years ago :disappointed_face:
+15:36 | Justin Kim: let's plays marc plays genshin
+17:20 | Keith: ur imagination
+17:32 | Joseph Wong: the hardware specs of my brain are pretty low
+17:39 | Matthew Richards: nginx with the quad ref pointer
+17:57 | Keith: how much ram in ur brain @Joseph Wong ?
+18:17 | joshablob: 1gbof rammmm
+18:30 | TheletterG: remember to download more ram for the next assingment! 
+18:31 | Jieshun Wang: neural networks :astonished_face::astonished_face::astonished_face:
+18:32 | Joseph Wong: my brain has 20mb ram and 1gb storage
+18:51 | (Moderator) Michael Gribben: i hear the brain has a very good graphics card
+19:38 | TEJ4321 Tejas: guess my brain doesn't exist then @Michael Gribben 
+19:40 | Blake Morris: mine needs a new power supply
+19:48 | Mack n Cheese: it only lets you see 380nm to 750nm smh
+20:12 | Lorenzo Grillo: does head->next->next work as pointer to 3rd element in list?
+20:48 | Lorenzo Grillo: @Marc Chee 
+21:00 | (Moderator) Michael Gribben: yep should be... assuming nothing was NULL
+21:13 | Blake Morris: Yes
+21:25 | Lorenzo Grillo: ok cool!
+21:26 | (Moderator) Michael Gribben: if something was NULL then computer go crash
+21:30 | Joseph Wong: marc chee is doxxing me
+22:15 | Blake Morris: after exam party at 200 anzadc
+22:26 | TheletterG: for assingment 3 we code viruses and then sewnd them to elderly people
+22:41 | William Papantoniou: just an idea for searching algorithms, could you have pointers to middle sections of the linked list? because if its sorted you would be able to reduce the search time
+23:21 | Hussain Nawaz: If you overshoot head -> next -> next -> will it return null or error?
+23:21 | Matthew Richards: @William Papantoniou Yes... but generally not useful because it's easier to just loop through it.
+23:22 | (Moderator) Michael Gribben: interesting idea! I suppose you could...
+24:08 | Matthew Richards: @Hussain Nawaz going overboard with the ->next will result in a seg fault. Eventually they'll return NULL but you need to check for that
+24:40 | William Papantoniou: @Matthew Richards ahh its usefulness would be determined by the length of the linked list, for n nodes you would need to perform n actions to search from start to end without a middle pointer, 
+24:46 | (Moderator) Michael Gribben: @William Papantoniou It's cool what you're suggesting because it sounds very similar to binary search, although the best way to store a list like that is talked about in COMP2521
+24:47 | William Papantoniou: but if you have a middle pointer it becomes n/2
+24:49 | Hussain Nawaz: @Matthew Richards seg fault?
+25:07 | Lorenzo Grillo: @Marc Chee i couldn't find an answer online - given that all the C standard libraries we use are .h files, what are the corresponding C implementation files?
+25:17 | Matthew Richards: @Hussain Nawaz dereferencing a null pointer causes a sed fault
+25:21 | Matthew Richards: *seg
+25:22 | Justin Kim: lol yes
+25:24 | (Moderator) Michael Gribben: A seg fault is when you access an invalid memory access (ie NULL) - dcc doesn't show you seg faults
+25:31 | FEIYUE MA: yes
+25:40 | Olli Bowers: helo
+25:41 | (Moderator) Michael Gribben: Instead of a seg fault, it gives you a far less confusing error message
+25:41 | Matthew Richards: @Lorenzo Grillo Those files aren't written in C. They are written in assembly
+26:06 | Lorenzo Grillo: oh ok 
+26:08 | Lorenzo Grillo: cool
+26:17 | Anneliese Menday: literally have been rewatching avatar 
+26:26 | Charzinc: can someone please explain what typedef does?
+26:28 | Charzinc: I forgot
+26:47 | Hussain Nawaz: @Charzinc defines a new type that you can use in your code
+26:52 | Cameron Mayhew: It basically just makes a new type like int or char
+26:54 | Matthew Richards: It's actually really hard to find the exact implementations but glibc has one you can browse for common functions.
+27:01 | Charzinc: ty
+27:02 | Cameron Mayhew: but for your specific purpose so its pretty useful for structs
+27:38 | (Moderator) Michael Gribben: @Lorenzo Grillo the standard libraries like stdio.h and string.h are written in C and are stored in a very special place on your computer
+28:11 | Blake Morris: A very special place - recycling bin
+28:11 | (Moderator) Michael Gribben: The computer probably only stored the compiled code (ie binary)
+28:26 | Matthew Richards: actually the .h exposes libraries written in assembly (generally) 
+28:45 | DeLuX∆: when do the last two lectures get uploaded
+29:17 | DeLuX∆: yep
+29:41 | EdIsAmbro: marc chee is not an android?
+29:46 | Evan Williams: i can see them @DeLuX∆ 
+30:35 | (Moderator) Michael Gribben: By special place I mean /usr/lib/ - @Matthew Richards yes sorry - what I meant is that they are implemented in C, although your computer stores the assembly
+31:28 | (Moderator) Michael Gribben: @DeLuX∆ the last week's lectures (lecture 11 and lecture 12) are on youtube I think?
+31:33 | (Moderator) Michael Gribben: can you see them?
+31:50 | Lorenzo Grillo: didn't #include stdio.h
+32:51 | (Moderator) Michael Gribben: typedef is kind of like #define but for types. It likes you refer to complex types things struct node * with a shorter name
+34:18 | Matthew Richards: It should also be noted that high performance sections of the standard library are generally written with bare assembly. e.g. math.h functions.
+36:14 | Kaan Sahiner: in Assignment 2 I didn't see which topics we are alowed to use, are these included?
+36:52 | Cameron Mayhew: We will definitely need linked lists for the assignment @Kaan Sahiner 
+37:14 | Kaan Sahiner: Alrighty thanks
+37:14 | (Moderator) Michael Gribben: yep ^^
+37:57 | Kaan Sahiner: need to practice these more I don't get them much ;/
+38:07 | TEJ4321 Tejas: ahh the arrow in the middle is slightly tilted
+38:32 | Cameron Mayhew: I don't think anyone does ahahha thats why we have a few lectures on them @Kaan Sahiner 
+39:55 | Markus N: am i the only one feeling like i need to rewatch the lecture a 100 more times to understand this
+40:04 | (Moderator) Michael Gribben: ^^ We're not expecting you to understand linked lists instantly :slightly_smiling_face: That would be insane.
+40:37 | Kaan Sahiner: yeah I think I'll start the assignment when the lectures are done and I'll rewatch them over and over]
+40:52 | Matthew Richards: dw pointer stuff is really hard to understand if you've never encountered them before (e.g. linked lists, trees and other complex structures)
+41:22 | Kaan Sahiner: @Markus N same 
+43:05 | Lorenzo Grillo: yeah TODO highlights itself
+43:07 | Lorenzo Grillo: epic
+43:30 | Cameron Mayhew: Is this comp1511 colors or is this a gedit thing?
+44:01 | Matthew Richards: gedit thing
+44:11 | (Moderator) Michael Gribben: gedit :slightly_smiling_face:
+44:53 | Blake Morris: anyone know of a good vscode extension that highlights todo in c?
+45:38 | Hussain Nawaz: ^Highlights "TODO:" and ""FIXME:"
+46:32 | Matthew Richards: just search for todo in the marketplace
+48:33 | Jennie Nguyen: its ok ur writing it in cursive
+53:27 | Lorenzo Grillo: what if we give insert_pos == NULL?
+53:44 | Lorenzo Grillo: wouldn't that break? @Marc Chee 
+54:03 | (Moderator) Michael Gribben: yes...
+54:23 | Lorenzo Grillo: like if you want to insert at the start, can you not do that?
+54:58 | Zijie Li: I think we just change the head if we insert at the start
+55:46 | (Moderator) Michael Gribben: yep :slightly_smiling_face: We'll have to check if insert_pos is NULL and do different things if it is NULL
+57:06 | Cameron Mayhew: but not if we start at the front ;0
+1:02:58 | Scire Schroedinger: The null void
+1:05:04 | Lorenzo Grillo: break time?
+1:05:37 | Hamish Cox: why not just return the new one every time? this seems like it would be a pain to use.
+1:06:26 | (Moderator) Michael Gribben: you could :slightly_smiling_face:
+1:06:30 | Blake Morris: \br
+1:06:35 | Jman: ALPHAGO
+1:06:36 | Jman: YESSSS
+1:06:53 | Hussain Nawaz: Alphago is a documentary that felt like an anime
+1:06:53 | TEJ4321 Tejas: oh alphago
+1:06:54 | Blake Morris: HR Machine is awesome
+1:07:22 | Jman: "If deepmind can write code without bugs, that's bigger news than Alphago"
+1:07:25 | Brendon Z: I recommend Rendezvous with Rama by Arthur C. Clarke:slightly_smiling_face: 
+1:07:46 | Matthew Richards: Asimov!!
+1:07:49 | William Papantoniou: Alpha Zero is cooler than AlphaGo
+1:07:52 | TEJ4321 Tejas: just watch the matrix lmao
+1:08:06 | Jman: There's no documentary on zero ;-;\
+1:08:15 | Jman: Or master for that matter
+1:08:20 | William Papantoniou: saddd
+1:09:09 | Justin Kim: gpt 3
+1:09:11 | Izy Z: Hey I have read snow crash :grinning_face: 
+1:09:13 | Hussain Nawaz: If we fail our exams playing hr machine, we know who to blame
+1:09:19 | Justin Kim: pog ai ^ 
+1:09:25 | (Moderator) Michael Gribben: :slightly_smiling_face:
+1:09:52 | (Owner) Marc Chee: I was actually playing the sequel to Human Resource Machine last night
+1:10:09 | (Owner) Marc Chee: it's called 7 Billion Humans and it's based on parallel coding . . . lots of fun
+1:10:19 | Blake Morris: Oooh nice
+1:10:21 | フワフワ: HRM is so fun
+1:10:48 | Blake Morris: I haven't played that one yet
+1:11:39 | Olli Bowers: that game is really cool
+1:11:58 | (Owner) Marc Chee: One day I'm going to contact the devs of the game and try to figure out how many sales I've gotten them :face_with_tongue:
+1:11:58 | Blake Morris: TIS-100 is another assembly-based game
+1:12:15 | (Owner) Marc Chee: although I think they're pretty famous, so I feel like we're just a drop in an ocean
+1:12:35 | Hussain Nawaz: Anyone hve an estimate on how long the game is?
+1:12:45 | Blake Morris: Yeah, they also did World of Goo so they're not a small developer
+1:12:45 | (Owner) Marc Chee: On Steam, there's a category called "Programming Games" or something similar which has a whole bunch of this stuff
+1:13:39 | Blake Morris: There was this DS game called WarioWare DIY that I made some fancy stuff in
+1:14:05 | Lorenzo Grillo: what????
+1:14:11 | (Moderator) Michael Gribben: Game of Life is a pretty cool game :slightly_smiling_face:
+1:14:23 | Lorenzo Grillo: people who make programs know programming???
+1:14:32 | Hamish Cox: theres a game called screeps where you program little workers using js and use them to maintain a colony and raid other players
+1:14:39 | Hamish Cox: you can only interact via code
+1:14:49 | Lewis Bandas: a gigabyte of ram will do the trick 
+1:14:53 | Mohammed Hossain: mr robot
+1:15:23 | Hamish Cox: r/itsaunixsystem
+1:15:24 | Brendon Z: Play DEFCON if you like Wargames
+1:15:52 | Alan Chan: live code?
+1:15:53 | Hamish Cox: uplink was best hacking game (from the defcon devs too)
+1:16:07 | Olli Bowers: minecraft redstone?
+1:16:12 | TEJ4321 Tejas: ^^^
+1:16:13 | Hamish Cox: UPDATE 4 RELEASED THO
+1:16:25 | Hussain Nawaz: @Hamish Cox do you know much js knowledge do you need in advance for screeps
+1:16:26 | (Moderator) Michael Gribben: oh yes I know some people learnt programming via minecraft redstone
+1:16:27 | Blake Morris: Good video on this type of game
+1:16:45 | EdIsAmbro: except EA. made by suits
+1:16:50 | Scire Schroedinger: make satisfactory a content for the channel
+1:16:51 | TEJ4321 Tejas: @Olli Bowers minecraft command blocks was the first coding language i learnt
+1:17:02 | FEIYUE MA: lol
+1:17:06 | Hamish Cox: @Hussain Nawaz quite a bit imo. it markets itself as a way to learn programming, but you won't get far without much. theres a free version that you can give a shot
+1:17:15 | Jman: Everyone has to buy minecraft first
+1:17:27 | Olli Bowers: @TEJ4321 Tejas hahahaha
+1:17:31 | Matthew Richards: It would be good for learning computer architecture with bare bones redstone. Transistor level stuff
+1:17:33 | FEIYUE MA: Minecraft command is truly a new language
+1:17:41 | Hussain Nawaz: @Hamish Cox that's a shame, maybe I'll come back to it later in the degree
+1:18:19 | Scire Schroedinger: Marc Chee's minecraft monarchy empire
+1:19:15 | Hussain Nawaz: Marc suffering from success
+1:20:26 | (Moderator) Michael Gribben: yes
+1:20:59 | Lorenzo Grillo: you shouldn't set head for the subsequent ones
+1:21:12 | Lorenzo Grillo: wouldn't that screw up the order?
+1:21:50 | Lorenzo Grillo: actually no it wouldn't, but the function sets that anyway
+1:22:26 | (Moderator) Michael Gribben: ahh so insert_after returns head which in most cases is the same thing... unless it's an empty list (ie NULL)
+1:22:37 | (Moderator) Michael Gribben: oh marc just said that hahah
+1:22:52 | Lorenzo Grillo: you shouldn't have head = at front
+1:23:19 | Jman: Ms paint strats
+1:23:41 | Anneliese Menday: Long ago, the four nations lived together in harmony. Then, everything changed when the Fire Nation attacked. 
+1:24:15 | (Moderator) Michael Gribben: @Lorenzo Grillo sorry not sure what you mean... insert_after just returns head
+1:24:31 | (Moderator) Michael Gribben: head is like the front of the linked list
+1:25:31 | Zijie Li: which sorting method are we using today 
+1:25:41 | TEJ4321 Tejas: bogo sort
+1:25:49 | TEJ4321 Tejas: the only true method
+1:25:56 | Lorenzo Grillo: well yeah insert_after returns head, if you give "head" as the argument for insert_pos in the function
+1:25:57 | Hussain Nawaz: bogosrt
+1:26:00 | (Moderator) Michael Gribben: the C makers really didn't like their vowels...
+1:26:17 | Lorenzo Grillo: if you give, say, "head->next", it'll return "head->next" right?
+1:26:36 | Lorenzo Grillo: unless you give NULL it just returns whatever you gave as insert_pos
+1:26:43 | (Moderator) Michael Gribben: @Zijie Li we're not really using a sorting method.. we're just inserting it so it's always sorted
+1:27:04 | Zijie Li: Ah ok
+1:27:12 | (Moderator) Michael Gribben: yep :slightly_smiling_face:
+1:27:30 | TEJ4321 Tejas: if the sort time is O(∞) then its high efficiency right :slightly_smiling_face: @Michael Gribben 
+1:27:54 | (Moderator) Michael Gribben: :thinking_face:
+1:28:48 | (Moderator) Michael Gribben: Hopefully you don't get a "Execution stopped by CPU time limit" :face_with_tongue:
+1:29:15 | Hussain Nawaz: Can't we have pointers two ways in a linked list?
+1:29:26 | Hussain Nawaz: So one pointing to next and one pointing to previous
+1:29:36 | (Moderator) Michael Gribben: yes we can!
+1:29:43 | (Moderator) Michael Gribben: That's called a doubly linked list!
+1:29:49 | Zijie Li: yes
+1:30:02 | (Moderator) Michael Gribben: because each 'node' has 2 pointers - one to the thing before it and one to the thing after it
+1:30:47 | (Moderator) Michael Gribben: They're a bit harder to implement but allow us to do more fancy stuff (like inserting beforehand)
+1:37:08 | Hussain Nawaz: Won't it be &&?
+1:37:11 | Lorenzo Grillo: tutorialspoint good one
+1:37:26 | Zijie Li: I think && make sense
+1:37:32 | TEJ4321 Tejas: can we use the internet in exams
+1:37:38 | Keith: targette advertising :P
+1:38:15 | Scire Schroedinger: @TEJ4321 Tejas shhhhhh
+1:38:35 | (Moderator) Michael Gribben: :eyes:
+1:38:42 | Lorenzo Grillo: shouldnt it be &&
+1:39:10 | mrmango303: will we have to memorise standard library functions for the exam?
+1:39:40 | (Moderator) Michael Gribben: ^^ nope
+1:40:00 | (Moderator) Michael Gribben: you will at least have access to the terminal (and the man pages) in the sxam
+1:41:02 | Zijie Li: I think we can also compare with curr - > next -> name ? And then we can insert after current.
+1:41:45 | Lorenzo Grillo: @Zijie Li what if curr->next = NULL?
+1:42:10 | Zijie Li: ye 
+1:45:42 | Lorenzo Grillo: shouldnt it be higher?
+1:46:01 | Lorenzo Grillo: because we want to keep going until the second is higher
+1:47:40 | Lorenzo Grillo: but we want "keep going if new name LOWER than "curr->name"
+1:47:46 | Lorenzo Grillo: dont we?
+1:47:54 | Lorenzo Grillo: or have i got this the wrong way around?
+1:48:02 | Art Smart: What about alphabetical ordering of matt and marc
+1:48:37 | (Moderator) Michael Gribben: @Art Smart the strcmp function loops through matt and marc
+1:48:50 | Reiji: does strcmp compare the first character or the whole string?
+1:48:55 | Hussain Nawaz: is strcmp case sensitive?
+1:49:22 | (Moderator) Michael Gribben: compares 'm' vs'm', then 'a' vs 'a', then there's a showdown between 'a' and 'r'
+1:49:50 | Lorenzo Grillo: imma do a preemptive "HE'S BEHIND YOU" since im still not sure about that <0 or >0 thing
+1:50:08 | (Moderator) Michael Gribben: @Reiji it compares the whole string :slightly_smiling_face:
+1:50:39 | (Moderator) Michael Gribben: @Hussain Nawaz it's case sensitive
+1:50:57 | (Moderator) Michael Gribben: there is strcasecmp that ignores case
+1:57:15 | William Papantoniou: surely there is a library that handles all this code for us right? cause this code is more or less universal?
+1:57:17 | Brendon Z: so its sort of similar to incrementing a counter?
+1:57:53 | JianFeng Lin: pain
+1:58:45 | (Moderator) Michael Gribben: doing curr = curr->next is very similar to incrementing a counter! @Brendon Z 
+1:59:07 | (Moderator) Michael Gribben: it's the linkedin list equivalent of i++ :slightly_smiling_face:
+1:59:12 | (Moderator) Michael Gribben: *linked
+2:00:03 | Raiyan Ahmed: i understand what we are doing byt the syntax is getting my head
+2:00:19 | Art Smart: is it hard to insert names via user input
+2:00:19 | Brendon Z: thanks @Michael Gribben 
+2:01:06 | Blake Morris: newlines
+2:01:31 | (Moderator) Michael Gribben: @Art Smart you should get a string from the user via something like fgets? Then pass that line into insert_alpha.
+2:02:40 | Alan Chan: live code please
+2:03:21 | Daniel Lin: if u just reboot ur computer does that auto free the memory ?
+2:03:34 | Art Smart: The zip file on the assignment 2 page is unavailable to download
+2:03:36 | (Owner) Marc Chee: http://web.cse.unsw.edu.au/~marcchee/lecture13/
+2:03:41 | (Moderator) Michael Gribben: http://web.cse.unsw.edu.au/~marcchee/lecture13/
+2:03:45 | Alan Chan: thx
+2:03:50 | Scire Schroedinger: :smiling_face_with_tear:
+2:03:58 | Hussain Nawaz: Tnank you!
+2:04:01 | Xykeal: thx
+2:04:04 | Olli Bowers: when the program ends it frees the memory right?
+2:04:13 | William Papantoniou: @Marc Chee Glib.h handles linked lists, like appends, inserts, making generic ones basically a lot of things. thought I would let u know
+2:04:27 | (Moderator) Michael Gribben: @Daniel Lin yep! These memory leaks are in RAM which gets wiped after you shut down your computer :slightly_smiling_face:
+2:04:32 | Mag1c: Nah, we are leaking memory rn
+2:05:31 | (Moderator) Michael Gribben: @Olli Bowers yep! The operating system should clean it up :slightly_smiling_face: It's still very good practice though... some programs run for a very long time...
+2:05:34 | Daniel Lin: Thanks :slightly_smiling_face: 
+2:05:40 | (Moderator) Michael Gribben: like browsers
+2:06:32 | Olli Bowers: chrome :disappointed_face:
+2:07:02 | (Moderator) Michael Gribben: @Art Smart interesting.. I'll pass that along..
+2:07:40 | Olli Bowers: oooooo
+2:14:14 | Lorenzo Grillo: my brain isnt too frazzled
+2:14:24 | Lorenzo Grillo: not as much as it was with multi file projects
+2:14:27 | Lorenzo Grillo: lmao
+2:14:37 | Shiitaké: i just wish i watched this lecture before starting on assignment 2
+2:15:17 | Blake Morris: Would you use these lists for stacks/queues?
+2:16:20 | Shiitaké: assignments are fun :slightly_smiling_face:
+2:16:37 | Brendon Z: 100% some people have already finished it :grinning_squinting_face:
+2:16:54 | Blake Morris: Ahahaha, ok
+2:17:11 | Blake Morris: Do they have to be doubly linked for queues?
+2:17:44 | Shiitaké: Im at stage 3 myself tbh
+2:22:20 | Blake Morris: i have one question about strcomp\
+2:22:37 | Blake Morris: Is it just returning 1/0/-1 or does it return the magnitude of the diffference?
+2:25:31 | Blake Morris: I just tried it with a and z, it only returned -1
+2:26:15 | Blake Morris: same with ma and mz
