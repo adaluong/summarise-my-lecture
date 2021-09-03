@@ -25,7 +25,7 @@ def id_to_chat_split(videoId: str) -> list:
         try:
             msg['privilege'] = message['author']['badges'][0]['icon_name']
         except:
-            msg['privilege'] = 'student'
+            msg['privilege'] = 'member'
 
         chat_list.append(msg)
 
