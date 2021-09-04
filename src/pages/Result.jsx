@@ -9,11 +9,12 @@ const Result = () => {
   const { videoId } = useParams();
   const [qna, setQna] = useState([]);
   const [videoName, setVideoName] = useState("");
+  const [loaded, setLoaded] = useState(false);
 
   const LoadingIndicator = props => {
     const { promiseInProgress } = usePromiseTracker();
     return (
-      promiseInProgress && 
+      promiseInProgress && loaded &&
       <div
         style={{
         width: "100%",
@@ -48,23 +49,28 @@ const Result = () => {
     // this code is executed when the page is loaded/reloaded
     // fetch sends a query to our server with the id of the Youtube video
     // change the url as required
-    trackPromise(
+    fetch(`/title?id=${videoId}`)
+      .then(r => r.json())
+      .then(data => {
+        setVideoName(data.name);
+        setLoaded(true);
+      });
 
+    trackPromise(
       fetch(`/magic?id=${videoId}`)
         .then(r => r.json())
         .then(data => {
           setQna(data.qna);
-          setVideoName(data.name);
         })
     );
   }, []);
 
   return (
     <div className="Result">
-      <LoadingIndicator></LoadingIndicator>
       <h1>
         {videoName}
       </h1>
+      <LoadingIndicator></LoadingIndicator>
       <div className="qna">
       {qna.map((element, idx) => (
         <Card className="qnaCard" key={idx}>

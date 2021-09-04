@@ -28,6 +28,16 @@ def get_transcript_from_id():
         "transcript": transcriptString
     } 
 
+@APP.route("/title", methods=["get"])
+def get_title():
+    video_id = request.args.get("id")
+
+    name = id_to_name(video_id)
+
+    return {
+        "name": name
+    }
+
 @APP.route("/magic", methods=["get"])
 def get_magic():
     video_id = request.args.get("id")
