@@ -1,9 +1,5 @@
 """ MATCH STUDENT QUESTIONS FROM THE LIVE CHAT WITH RESPONSES FROM MODERATORS """
-<<<<<<< HEAD
 import backend.get_chat as get_chat
-=======
-import get_chat
->>>>>>> b8fae0385e3e81d8b20854792da1cc0e4ff9665b
 import re
 from fuzzywuzzy import fuzz
 

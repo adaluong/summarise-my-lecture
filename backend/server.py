@@ -1,5 +1,4 @@
 from flask import Flask, request
-<<<<<<< HEAD
 from backend.get_transcript import id_to_transcript
 from backend.get_chat import id_to_chat, id_to_chat_split
 from backend.magic import magic
@@ -8,16 +7,6 @@ from backend.match_chat import match_chat
 from chat_downloader.errors import NoChatReplay, ChatDownloaderError
 from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
 from backend.errors import *
-=======
-from get_transcript import id_to_transcript
-from get_chat import id_to_chat, id_to_chat_split
-from magic import magic
-from get_video import id_to_name, CouldNotGetName
-from match_chat import match_chat
-from chat_downloader.errors import NoChatReplay, ChatDownloaderError
-from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
-from errors import *
->>>>>>> b8fae0385e3e81d8b20854792da1cc0e4ff9665b
 
 APP = Flask(__name__, static_folder="../build", static_url_path="/")
 
