@@ -2,27 +2,27 @@ import './Search.css';
 import React, { useState } from 'react';
 import { Form, Button, Card, Nav } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
+import { Formik } from 'formik';
 
 const Search = () => {
   const history = useHistory();
-  const [linkInput, setLinkInput] = useState("");
   const[activeTab, setActiveTab] = useState("youtube");
 
-  const onChange = (e) => {
-    e.preventDefault();
-    setLinkInput(e.target.value);
-  }
-
-  const onSubmit = (youtubeLink) => {
+  // parses link for video id
+  // returns null if invalid id
+  const parseLink = (inputLink) => {
     // regex to parse video id from
     // https://stackoverflow.com/questions/3452546/how-do-i-get-the-youtube-video-id-from-a-url
     const reg = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
-    const match = youtubeLink.match(reg);
+    const match = inputLink.match(reg);
     if (!match || match[7].length !== 11) {
-      // do nothing i guess
-      return;
+      return null;
     }
-    const videoId = match[7];
+    return match[7];
+  }
+
+  const submitLink = (inputLink) => {
+    const videoId = parseLink(inputLink);
     history.push(`/result/${videoId}`);
   }
 
@@ -47,31 +47,104 @@ const Search = () => {
           </Nav>
         </Card.Header>
         <Card.Body className="formCardBody">
-          {activeTab === "youtube" &&(
-            <Form name="youtubeForm" onSubmit={() => onSubmit(linkInput)}>
-              <Form.Group className="mb-3" controlId="formVideoLink">
-                <Form.Control
-                  type="text"
-                  placeholder="Enter Youtube link"
-                  onChange={onChange}
-                />
-              </Form.Group>
-              <Button variant="primary" type="submit">Summarise!</Button>
-            </Form>)}
+          {activeTab === "youtube" && (
+            <Formik
+              initialValues={{ youtubeLink: '' }}
+              validate={values => {
+                const errors = {};
+                if (!values.youtubeLink || !parseLink(values.youtubeLink)) {
+                  errors.youtubeLink = "Enter valid Youtube link"
+                }
+                return errors;
+              }}
+              onSubmit={(values) => {
+                submitLink(values.youtubeLink);
+              }}
+            >
+              {({
+                handleSubmit,
+                handleChange,
+                values,
+                errors,
+              }) => (
+                <Form noValidate name="youtubeForm" onSubmit={handleSubmit}>
+                  <Form.Group className="mb-3" controlId="formVideoLink">
+                    <Form.Control
+                      type="text"
+                      name="youtubeLink"
+                      value={values.youtubeLink}
+                      onChange={handleChange}
+                      isInvalid={!!errors.youtubeLink}
+                      placeholder="Enter a Youtube link"
+                    />
+                    <Form.Control.Feedback type="invalid">
+                      {errors.youtubeLink}
+                    </Form.Control.Feedback>
+                  </Form.Group>
+                  <Button variant="primary" type="submit">Summarise!</Button>
+                </Form>
+              )}
+            </Formik>
+          )}
           {activeTab === "upload" && (
-            <Form name="uploadForm">
-              <Form.Group controlId="uploadTranscript" className="mb-3">
-                <Form.Label>Upload lecture recording</Form.Label>
-                <Form.Control type="file" />
-              </Form.Group>
-              <Form.Group controlId="uploadChat" className="mb-3">
-                <Form.Label>Upload chat records</Form.Label>
-                <Form.Control type="file" />
-              </Form.Group>
-              <Button variant="primary" type="submit">
-                Summarise!
-              </Button>
-            </Form>
+            <Formik
+              initialValues={{ transcript: '', chat: '' }}
+              validate={values => {
+                const errors = {};
+                if (!values.transcript) {
+                  errors.transcript = "Transcript file required";
+                }
+                if (!values.chat) {
+                  errors.chat = "Chat file required";
+                }
+                return errors;
+              }}
+              onSubmit={values => {
+                const data = new FormData();
+                data.append("transcript", values.transcript);
+                data.append("chat", values.chat);
+                console.log(data);
+              }}
+            >
+              {({
+                handleSubmit,
+                setFieldValue,
+                errors,
+              }) => (
+                <Form noValidate name="uploadForm" onSubmit={handleSubmit}>
+                  <Form.Group controlId="uploadTranscript" className="mb-3">
+                    <Form.Label>Upload lecture recording</Form.Label>
+                    <Form.Control
+                      type="file"
+                      name="transcriptFile"
+                      isInvalid={!!errors.transcript}
+                      onChange={event => {
+                        setFieldValue("transcript", event.target.files[0]);
+                      }}
+                    />
+                    <Form.Control.Feedback type="invalid">
+                      {errors.transcript}
+                    </Form.Control.Feedback>
+                  </Form.Group>
+                  <Form.Group controlId="uploadChat" className="mb-3">
+                    <Form.Label>Upload chat records</Form.Label>
+                    <Form.Control
+                      type="file"
+                      name="chatFile"
+                      isInvalid={!!errors.chat}
+                      onChange={event => {
+                        setFieldValue("chat", event.target.files[0]);
+                      }}
+                    />
+                    <Form.Control.Feedback type="invalid">
+                      {errors.chat}
+                    </Form.Control.Feedback>
+                  </Form.Group>
+                  <Button variant="primary" type="submit">
+                    Summarise!
+                  </Button>
+                </Form>)}
+            </Formik>
           )}
         </Card.Body>
      </Card>
