@@ -24,7 +24,7 @@ const Result = () => {
         alignItems: "center"
         }}
       >
-        <Loader type="ThreeDots" color="#00ccbc" height="100" width="100" />
+        <Loader type="ThreeDots" color="#44d9e6" height="100" width="100" />
       </div>
     );  
   }
