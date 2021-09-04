@@ -1,6 +1,6 @@
 from youtubesearchpython import *
 import json
-from errors import CouldNotGetName
+from backend.errors import CouldNotGetName
 
 def id_to_name(video_id) -> str:
     vid = Video.getInfo(video_id, mode=ResultMode.json)

@@ -1,23 +1,7 @@
 # lecture repeats the question
 from fuzzywuzzy import fuzz
-import get_transcript
-import get_chat
-
-def magic2(transcript, chat):
-    qna = []
-    qna = [
-            {
-                "question": "how do i do a linked list",
-                "answer": "i love linked lists !",
-                "time": "00:01"
-            },
-            {
-                "question": "when is the exam",
-                "answer": "the exam is tomorrow",
-                "time": "10:01"
-            }
-        ]
-    return qna
+import backend.get_transcript as get_transcript
+import backend.get_chat as get_chat
 
 def magic(transcript, chat):
     keywords = ["ask", "questions", "ask", "question"]
