@@ -1,0 +1,6 @@
+chat-downloader
+youtube_transcript_api
+flask
+python-dotenv
+fuzzywuzzy[speedup]
+youtube-search-python

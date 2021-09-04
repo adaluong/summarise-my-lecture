@@ -3,12 +3,6 @@ from fuzzywuzzy import fuzz
 import get_transcript
 import get_chat
 
-with open("transcript.txt") as f:
-    transcript = [line.strip() for line in f.readlines()]
-
-with open("chat.txt") as g:
-    chat = [line.strip() for line in g.readlines()]
-
 def magic2(transcript, chat):
     qna = []
     qna = [
@@ -59,6 +53,11 @@ def magic(transcript, chat):
     return qna
 
 if __name__ == '__main__':
+    with open("transcript.txt") as f:
+        transcript = [line.strip() for line in f.readlines()]
+
+    with open("chat.txt") as g:
+        chat = [line.strip() for line in g.readlines()]
 
     videoId = "4WBbrxZguqk"
     transcript = get_transcript.id_to_transcript(videoId)
