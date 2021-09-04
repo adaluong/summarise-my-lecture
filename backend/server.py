@@ -57,8 +57,8 @@ def get_magic():
         qna.extend(match_chat(id_to_chat_split(video_id)))
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
-    except CouldNotRetrieveTranscript:
-        raise APITranscriptError("Transcript could not be retrieved from this video.")
+    except CouldNotRetrieveTranscript as e:
+        raise APITranscriptError(f"Transcript could not be retrieved from this video: {e}")
     except NoChatReplay:
         raise APIChatError("This video does not have a chat replay.")
     except ChatDownloaderError:

@@ -14,6 +14,4 @@ def id_to_transcript(video_id: str) -> list:
 
 if __name__ == "__main__":
     text = id_to_transcript(video_id)
-    for line in text:
-        print(line)
-        pass
+    print(text)
