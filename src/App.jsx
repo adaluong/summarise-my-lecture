@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Result from './pages/Result';
 import Search from './pages/Search';
 import { Container, Navbar } from 'react-bootstrap';
+import whitelogo from './white_logo.png'; 
 
 const App = () => {
   
@@ -12,7 +13,7 @@ const App = () => {
     <Router>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/">Summarise My Lecture</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/"><img src={whitelogo} height={70}></img></Navbar.Brand>
         </Container>
       </Navbar>
       <Route exact path='/' component={Search} />
