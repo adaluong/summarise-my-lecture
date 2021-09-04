@@ -16,7 +16,7 @@ const Result = () => {
     if (splitTime.length === 2) {
       minutes = splitTime[0];
       seconds = splitTime[1];
-    } else if (splitTime.length == 3) {
+    } else if (splitTime.length === 3) {
       hours = splitTime[0];
       minutes = splitTime[1];
       seconds = splitTime[2];

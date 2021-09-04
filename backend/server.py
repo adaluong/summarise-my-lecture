@@ -1,8 +1,9 @@
 from flask import Flask, request
 from get_transcript import id_to_transcript
-from get_chat import id_to_chat
+from get_chat import id_to_chat, id_to_chat_split
 from magic import magic
 from get_video import id_to_name
+from match_chat import match_chat
 
 APP = Flask(__name__)
 
@@ -33,12 +34,15 @@ def get_magic():
     video_id = request.args.get("id")
 
     name = id_to_name(video_id)
+    
     qna = magic(id_to_transcript(video_id), id_to_chat(video_id))
+    qna.extend(match_chat(id_to_chat_split(video_id)))
 
     return {
         "name": name,
         "qna": qna
     }
+
 
 '''
 [

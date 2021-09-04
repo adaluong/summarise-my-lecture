@@ -120,6 +120,7 @@ def match_chat(chat):
                 
             prev_mod_index = (prev_mod_index[0], index)
 
+    qna = list(qna.values())
     return qna
     
 if __name__ == '__main__':
