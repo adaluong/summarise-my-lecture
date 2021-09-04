@@ -1,0 +1,810 @@
+-45:39 | Waleed Shahid: hi 4 waiting peeps
+-35:58 | Google Assistant: waiting squad
+-22:25 | (Moderator) Shrey Somaiya: :eyes:
+-22:13 | (Owner) Marc Chee: Good Morning!
+-18:41 | Waleed Shahid: good morning from 5AM gang
+-18:15 | Waleed Shahid: How''s your day been going Shrey & Marc?
+-16:52 | (Owner) Marc Chee: I've been setting up the panic button for today . . . got a notice that my internet connection might be interrupted today by maintenance
+-16:28 | (Owner) Marc Chee: So I have my phone plugged into my PC ready to start a tethering connection if things go awry
+-15:58 | Waleed Shahid: Contingency planning
+-15:57 | (Owner) Marc Chee: fingers crossed though
+-15:55 | Waleed Shahid: Fancy
+-15:40 | Waleed Shahid: Yeah
+-15:13 | Zijie Li: morning
+-13:26 | Waleed Shahid: Are we doing pointers this week btw?
+-13:22 | Waleed Shahid: on Friday?
+-12:15 | Jared: Remi from ratatouille
+-11:46 | (Owner) Marc Chee: Yeah, we'll be looking at memory on Friday . . . I haven't set that up in webCMS yet, assignment releases always make a week very busy
+-11:17 | Waleed Shahid: Fair enough! Assignment looks fun for sure
+-10:48 | (Owner) Marc Chee: Stream tomorrow afternoon for the assignment also! (I'll talk about that in person)
+-9:46 | Waleed Shahid: awesome, hopefully can make it live but ive got two lab tests on the day as so :grinning_face_with_sweat:
+-9:39 | (Moderator) Michael Gribben: hi
+-9:23 | Waleed Shahid: Hi Michael
+-9:13 | Waleed Shahid: Are you or shred moderating today?
+-8:46 | Waleed Shahid: Shrey*
+-8:45 | (Moderator) Michael Gribben: I'm moderating :slightly_smiling_face:
+-8:24 | (Moderator) Michael Gribben: What time is it for you? Get some sleep :face_with_tongue:
+-1:31 | (Moderator) Michael Gribben: who's hyped to play Slide :face_with_open_mouth:
+-1:30 | Waleed Shahid: 5AM
+-1:19 | EdIsAmbro: uhh
+-1:15 | Waleed Shahid: I wake up at 3 for a 1141 stuff actually
+-1:10 | Waleed Shahid: so im well awake by now haha
+-1:02 | EdIsAmbro: Not hype to play test my own slide
+-0:54 | EdIsAmbro: Because pain
+-0:52 | Waleed Shahid: dw, you'll get through it
+-0:49 | Waleed Shahid: you've got time
+-0:35 | Hussain Nawaz: Good morning all
+-0:34 | EdIsAmbro: ya, seems straightforward
+-0:24 | Joseph Wong: Good morning!
+-0:06 | Mal Notyah: hii!
+-0:01 | EdIsAmbro: I got pt 1 mostly done yesterday, just got to refine how it takes input so it can pas autotest :slightly_smiling_face:
+0:04 | Cameron Mayhew: hello!!
+0:10 | Waleed Shahid: Awesome great job mate
+0:15 | Cameron Mayhew: damn some of yall are quick
+0:20 | Cameron Mayhew: not worried about the lab test I take it?
+0:26 | Waleed Shahid: haha wdym
+0:32 | Mal Notyah: Who's ready for lab test?
+0:33 | Lorenzo Grillo: hello all
+0:48 | (Moderator) Michael Gribben: hello!
+0:51 | Alex Chen: lab test :KEKW:
+0:56 | Waleed Shahid: hi lorenzo
+1:05 | Xykeal: when is the lab test?
+1:05 | Cameron Mayhew: i mean if you have the time to start on the assignment I assume you are very comfortable with the lab tests aha
+1:06 | EdIsAmbro: My brain is a mess, when is lab test
+1:06 | Hussain Nawaz: The practice test wasnt too bad, so hopefully they don't pull a fast one with the actual lab
+1:16 | Matthew Richards: ah yes that lab test tomorrow (at least for me idk about others) :P
+1:20 | (Moderator) Michael Gribben: Is this the maths lab test?
+1:25 | Waleed Shahid: @Xykeal they are talking about MATH lab tests, comp doesn't have one
+1:29 | Waleed Shahid: yep
+1:30 | Cameron Mayhew: yeah i think it depends if you are 1131 or 1141
+1:32 | Cameron Mayhew: @Michael Gribben yep!
+1:33 | Waleed Shahid: we have 1081 toms
+1:34 | Alex Chen: 1081 1141 ye
+1:37 | Waleed Shahid: and 1141 if you take that
+1:41 | EdIsAmbro: 1131 test lol
+1:49 | Xykeal: oh i see, kk
+1:51 | Waleed Shahid: wait
+1:55 | Waleed Shahid: is that a fresh trim marc
+1:57 | EdIsAmbro: Most certainly gonna fail 1131 test
+1:58 | Waleed Shahid: or am I trippin
+2:04 | (Moderator) Michael Gribben: https://cgi.cse.unsw.edu.au/~cs1511/21T1/assignments/ass1/index.html#slide
+2:05 | EdIsAmbro: i forgot about it
+2:08 | (Moderator) Michael Gribben: ^^ first assignment
+2:31 | Tuv Jugnarain: Lewis how have u finished the assessment task already?
+2:35 | EdIsAmbro: marc avoiding copyright infringement with "slide"
+2:38 | Blake Morris: Happy mar10 day
+2:42 | Matthew Richards: slide reminds me of defender quite a lot
+3:09 | Tomas Ostroumoff: Will it be recorded?
+3:15 | Jieshun Wang: the livestream tmr is rewatchable right?
+3:20 | (Moderator) Michael Gribben: Get started early :face_with_tongue:
+3:28 | (Moderator) Michael Gribben: @Tomas Ostroumoff yes - it will be on this youtube channel
+3:35 | Charzinc: it should be 
+4:27 | (Moderator) Michael Gribben: https://www.youtube.com/watch?v=1hOxps57c-8
+4:28 | Eric Lin: really quickly how much is this assignment weighted?
+4:31 | (Moderator) Michael Gribben: ^^ lecture live stream
+4:37 | (Moderator) Michael Gribben: already 4 people waiting...
+4:39 | Waleed Shahid: 15% iirc
+4:41 | Cameron Mayhew: 15%
+4:44 | Cameron Mayhew: i believe?
+4:49 | (Moderator) Michael Gribben: @Eric Lin assignment 1 is worth 15% of the course
+4:50 | Prudence Dodds: Will the assignment livestream be recorded?
+4:52 | Waleed Shahid: second one is 25%
+4:55 | Eric Lin: oh ok thanks
+4:57 | Cameron Mayhew: next one is 25% ;0
+4:58 | Waleed Shahid: yes @Prudence Dodds 
+5:19 | Prudence Dodds: ty ^_^
+5:21 | (Moderator) Michael Gribben: yep!
+6:29 | (Moderator) Michael Gribben: FYI if you need help for assignments, there are online help sessions scheduled: https://webcms3.cse.unsw.edu.au/COMP1511/21T1/resources/56346
+7:11 | (Moderator) Michael Gribben: My advice is to go to the help sessions early as they get quite busy close to the assignment due date.
+9:21 | (Moderator) Tom Kunc: hi everyone :)
+9:29 | (Moderator) Tom Kunc: it was Monday!!!
+9:35 | (Moderator) Tom Kunc: Monday 2355 ;)
+9:42 | Evan Williams: i think it was past midnight
+9:52 | Jieshun Wang: past midnight
+10:06 | (Moderator) Tom Kunc: the notice went out later
+10:08 | (Moderator) Michael Gribben: hi Tom :grinning_face:
+10:33 | Blake Morris: Will we cover the ctrl d thing this week?
+10:55 | Caleb Watts: Are we all good to change up the slide.c template?
+12:08 | (Moderator) Michael Gribben: Yep! slide.c is the program you submit - you've just given you some starter code to help you get started.
+12:37 | Caleb Watts: Cheers Michael
+12:50 | (Moderator) Tom Kunc: (also hi Michael)
+13:39 | Tuyet Nguyen: Does the function always need to be underneath the place where we used it
+13:49 | Nashita Chowdhury: does the int add need to be declared before the int main and after?
+14:04 | Cameron Mayhew: its declared first
+14:06 | Cameron Mayhew: then defined
+14:13 | Nashita Chowdhury: isn't it simpler to just int first no + int second no?
+14:19 | Cameron Mayhew: so its not really declared both times @Nashita Chowdhury 
+14:23 | Aedan MacNamara: do we have to define the function after the main or is this just marc's formatting
+14:40 | Cameron Mayhew: I believe its just convention but there might be reason for it as well?
+14:40 | Blake Morris: It is nashita, this is just to show how funcs work
+14:41 | Nashita Chowdhury: righttt, so declaration and definition is both needed?
+14:47 | (Moderator) Michael Gribben: ahhh great question @Tuyet Nguyen A function must be declared first. However, you can declare a function first then define it (like type it's body) later.
+14:58 | Cameron Mayhew: yea for good style
+14:58 | Gaycob: recurssion
+15:03 | Caleb Watts: In this case yeah absolutely but this is just an example I imagine
+15:09 | Gorb_: how can i pass multiple variables back from a function without using globals?
+15:15 | Blake Morris: Functions usually have more complexity than just adding
+15:18 | TJTV: for the function variables is it okay to just give letter, like a and b in this. Since it's not as specific? what is the convention?
+15:24 | king kong: Is that a blackpink shirt
+15:26 | (Moderator) Michael Gribben: There's something called a function prototype which is just the first line of a function (it's return type, name, and arguments) like int doubleNum(int num);
+15:36 | HEMI: can we return the value of array? like return array[ ]?
+15:42 | Dnyanda Kulkarni: kill this love wow 
+15:45 | Blake Morris: yep
+15:49 | (Moderator) Michael Gribben: You can put that at the top of your code and define it (like write stuff inside {}) later.
+15:51 | Wobo Head: blackpink shirt???
+15:53 | Waleed Shahid: @HEMI not directly no!
+15:56 | EdIsAmbro: @Aedan MacNamara that's standard 1511 formatting rules, prototype up top then define underneath main
+16:06 | Dnyanda Kulkarni: That is blackpink merch 
+16:14 | Aedan MacNamara: ok thanks
+16:19 | Dnyanda Kulkarni: Marc is a blinkkkkk
+16:25 | Nashita Chowdhury: sorry what is prototype?
+16:49 | Justin Kim: yeah
+16:49 | Raiyan Ahmed: I JUST realised and u mention it
+16:49 | Cameron Mayhew: oh yeah its good style since its much more readable for humans @Nashita Chowdhury since we read top to bottom
+16:51 | Vincent Nguyen: poggers
+17:09 | Waleed Shahid: Marc will touch on prototypes once we start writing them later in the le
+17:11 | Waleed Shahid: lec*
+17:12 | _ Schnelli: chicken :red_heart:
+17:14 | Waleed Shahid: I think, so dw
+17:21 | (Moderator) Michael Gribben: Ahh so arrays work a bit differently. You can't strictly return an array (you can return pointers which we'll get to in a few weeks). However, you can modify an array in a function.
+17:24 | Nashita Chowdhury: @Cameron Mayhew thanks so much
+17:36 | Charzinc: Mark with the Kpop mercy
+17:40 | Charzinc: Merch*
+17:47 | Cameron Mayhew: the function prototype is just another name for the function declaration @Nashita Chowdhury 
+17:47 | (Moderator) Michael Gribben: @Nashita Chowdhury I function prototype just tells C that a function exists. It just looks like int doubleNum(int num);
+17:49 | Kevin Van: when we call more than 2 integers in a function, how do we set the order for the main variables in the function?
+17:53 | (Moderator) Michael Gribben: with no curly braces {}
+18:59 | (Moderator) Michael Gribben: @Gorb_ functions just return one things... but there are ways to modify multiple values. We'll explore this in a couple weeks using pointers :slightly_smiling_face:
+19:42 | EdIsAmbro: @Nashita Chowdhury prototype just says "hey there's a function used later on in the program that looks like 'int doubleNum(int num);'. Its defined later but thought you should know"
+20:03 | (Moderator) Michael Gribben: @TJTV in terms of function variables, we can still do better than giving a and b. It's allowed but not great style. You should follow the same naming conventions as other variables!
+20:18 | (Moderator) Michael Gribben: yep! great explanation @EdIsAmbro :slightly_smiling_face:
+20:23 | Blake Morris: which libraries can we use in tests and such?
+20:39 | Joseph Wong: MAN
+20:45 | TJTV: thanks!
+20:50 | Cameron Mayhew: they specify on the notification I believe @Autumnal Blake 
+20:57 | Cynthia Li: where do we find the revision test?
+20:59 | Blake Morris: ah thanks
+21:13 | mispelt: webcms3
+21:14 | (Moderator) Michael Gribben: @Autumnal Blake the tests and exercises will say which libraries you can use :slightly_smiling_face: I don't believe anything other than stdio.h, stdlib.h and math.h are used in this course though.
+21:18 | Cameron Mayhew: but generally we should only need the main standard ones
+21:21 | Aedan MacNamara: @Cynthia Li webcms3
+21:34 | Blake Morris: can we write and use our own libraries?
+21:51 | Raffaele Hughes: is there a "import *" equivalent for C?
+21:54 | Levi Althaus: how would u raise a number to the power of another?
+22:03 | Cameron Mayhew: writing libraries is not something we will learn - I think its pretty complex
+22:04 | Blake Morris: or does that break the submitted elsewhere for credit rule
+22:15 | Cynthia Li: ok thanks
+22:15 | Matthew Richards: @Raffaele Hughes #include *is* import *
+22:31 | Blake Morris: @Levi Althaus That's in the math.h library, probably pow(x,y)
+22:43 | Raffaele Hughes: cheers
+23:13 | Levi Althaus: @Autumnal Blake thanks bro
+23:20 | Cameron Mayhew: if you are referring to the lab exercises @Levi Althaus pretty sure we cannot use math.h
+23:22 | (Moderator) Michael Gribben: @Kevin Van function variables are ordered. Like a function like int times(int x, int y); which you call like times(5, 6), then x will be 5 and y will be 6.
+23:27 | Blake Morris: np
+23:45 | (Moderator) Michael Gribben: yep #include is importing in C :slightly_smiling_face:
+23:46 | Raiyan Ahmed: Quake live inverse of inverse square root algorthm 
+24:20 | Charzinc: ?
+24:33 | (Moderator) Michael Gribben: @Autumnal Blake we will get into importing your own code from other files in this course!
+24:49 | Blake Morris: awesome
+24:54 | Keith: @Levi Althaus the pow function however, only outputs a double i believe
+25:17 | Blake Morris: malloc :(
+25:23 | (Moderator) Michael Gribben: Assignment 2 will have multiple files :slightly_smiling_face: They are imported similarly but it is slightly different from importing a standard library like stdio.h.
+25:45 | Raiyan Ahmed: Are pointers taught in 1511
+26:17 | Mememeist3r: @Keith you can output an int from pow
+26:20 | Blake Morris: yes
+26:28 | (Moderator) Michael Gribben: @Raiyan Ahmed yep! Very soon...
+26:53 | (Moderator) Michael Gribben: @Autumnal Blake to answer your earlier question, control-D causes scanf to return EOF.
+27:13 | (Moderator) Michael Gribben: and it looks like we're learning about it's return value now :grinning_face:
+27:15 | Blake Morris: ahh thanks
+27:18 | Justin Kim: tiled haha
+27:21 | Dawson Yu: finally
+27:32 | Dawson Yu: we have met same situation
+27:46 | HEMI: what's condition the scanf will return -1 ?
+27:47 | Blake Morris: are we specifically using EOF as a while condition or is it just a != valid input sort of thing
+27:54 | Keith: ^
+28:01 | Dawson Yu: the slow speed of vlab lol
+28:32 | EdIsAmbro: When you dont know if Vlab slow or if internet bad :confused_face:
+29:01 | Dawson Yu: i guess both:face_with_tears_of_joy:
+29:03 | MBMath: *pretends to understand what Marc just said about bitrate
+29:07 | (Moderator) Michael Gribben: Most (if not all?) functions in math.h like pow return a double. That double might be something like 4.00000 (it is a whole number, but the type is a double).
+29:24 | (Moderator) Michael Gribben: it's a double because of the stuff after the dot point
+30:12 | Hamish Cox: Wouldn't it not know how to separate them? It should have spaces between the %ds
+30:26 | (Moderator) Michael Gribben: @HEMI scanf returns EOF when there is nothing else to scan in :confused_face: (EOF stands for end of file)
+30:38 | EdIsAmbro: @MBMath marc internet has 100 lanes, he uses 98 lanes for the stream leaving only 2 for vlab, so the Vlab lanes have too many bits of data in it so it goes slow.
+30:51 | (Moderator) Michael Gribben: I say EOF not -1 because on some weird computers EOF might not be -1 (yes I know it's weird)
+30:58 | Cameron Mayhew: this week @Marc Chee 
+31:00 | Hussain Nawaz: will this only take one digit numbers? how does it know when on enumber ends and another begins
+31:05 | (Moderator) Michael Gribben: so safer just to use EOF :slightly_smiling_face: but -1 will likely work
+31:26 | MBMath: @EdIsAmbro woah, thanks lol 
+31:29 | Charzinc: What is EOF?
+31:44 | Cameron Mayhew: end of file @Charzinc 
+31:45 | (Moderator) Michael Gribben: @Autumnal Blake it is safer to specify the success condition (like you want to scan in 1 variable, so make it equal to 1).
+31:48 | Blake Morris: end of file
+31:51 | MBMath: End of File
+31:57 | Cameron Mayhew: it is triggered by Control + D and we use it in loops sometimes
+32:04 | Blake Morris: riiight
+32:12 | Charzinc: Thx
+32:20 | Cameron Mayhew: like in this example, Marc is using it to keep the loop continuing until we want to end the loop
+32:24 | (Moderator) Michael Gribben: Reason being scanf might return multiple different values if it flops and fails
+32:26 | Cameron Mayhew: you will encounter it in the labs this week
+32:35 | (Moderator) Michael Gribben: like EOF if you type Ctrl-D 
+32:54 | Blake Morris: does c not have a boolean type
+33:03 | Vincent Nguyen: so if we DID get a valid input, we'd get result =1 ?
+33:20 | (Moderator) Michael Gribben: or if you try to scan something weird (like a word when you're looking for a number) it might return 0 (meaning it failed to scan in anything)
+33:21 | Brendon Z: are we allowed to use the scanf in the while condition, i.e. while (scanf("%d", &d) != EOF)
+33:27 | Mag1c: what is the num_count =+ result; ?
+33:31 | Anneliese Menday: do you need to say keep_looping == 1? for the while loop?
+33:36 | Joseph Fabrello: does keep looping not have a condition on it........
+33:39 | Cameron Mayhew: yes @Brendon Z 
+33:54 | Cameron Mayhew: @Mag1c I believe its short hand for num_count = num_count + result
+34:00 | (Moderator) Michael Gribben: TLDR: test success condition for scanf (like if you're trying to scan in 2 variables, do (scanf("%d" %d, &a, &b) == 2)
+34:01 | Joseph Fabrello: keep_looping no condiiton lol
+34:04 | Reuben: But the array was only defined for 10 values - how could it keep taking them in until Ctrl+D
+34:11 | Eric Lin: does scanf just always return 1 if it recieves a valid value?
+34:21 | Mag1c: OH ok thanks
+34:21 | (Moderator) Michael Gribben: @Autumnal Blake nope... there is a stdbool.h library though
+34:30 | (Moderator) Michael Gribben: but no inbuilt booleans :disappointed_face:
+34:31 | Rohan Beck: nice haircut marc 
+34:39 | Hussain Nawaz: @Anneliese Menday the &&looping checks if looping has a non-zero value
+34:41 | (Moderator) Shrey Somaiya: @Joseph Fabrello it doesn't need one! numbers are "true" when they are not zero. Hence, you don't need to do keep_looping == 1
+34:42 | EdIsAmbro: @Reuben thats where you say "he's behind you"
+34:49 | (Moderator) Michael Gribben: nice haircut marc
+34:51 | Cameron Mayhew: @Mag1c its like i++ = i + i
+35:00 | Cameron Mayhew: i + 1*
+35:10 | Joseph Fabrello: ah thank you, that makes sense.
+35:16 | Mag1c: @Cameron Mayhew Isnt i++ i +1 
+35:21 | Mag1c: yeah ok cheers
+35:34 | Cameron Mayhew: yeah typo ahahahha
+36:47 | (Moderator) Michael Gribben: @Hussain Nawaz to answer your earlier question, scanf will take in multi digit numbers like 101 or 42, not just one digit numbers. It uses whitespace to tell things apart.
+37:43 | FEIYUE MA: Can we just press Enter instead of Ctrl-D to finish the program?
+37:48 | Hussain Nawaz: @Michael Gribben So the user will put the white spaces right?
+37:55 | Blake Morris: Is there an escape sequence char for EOL?
+38:09 | Jman: What if you put numbers after the "hello"? :full_moon_face:
+38:12 | Cameron Mayhew: @FEIYUE MA depends on the way u set it up here
+38:23 | Jman: Would it scan it or just like die?
+38:26 | (Moderator) Michael Gribben: yep! 123 gets one number, but 12 3 (with the space between 2 and 3) gets 2 numbers
+38:33 | Cameron Mayhew: i believe here it would end the program, but sometimes you use a condition where if its not = EOF it will end @FEIYUE MA 
+38:50 | Blake Morris: since you're only scanning one thing at a time, it would stop there @Jman 
+39:05 | Cameron Mayhew: @Jman the second it receives input that isnt valid it will end, so you cannot enter any input after hello
+39:07 | Jman: F
+39:25 | (Moderator) Michael Gribben: @Autumnal Blake EOF should work :slightly_smiling_face: Like literally EOF with no quotes. There isn't really an escape character.
+39:32 | Blake Morris: If you scanned multiple inputs in the one scanf(), it would scan the rest of that before it stopped
+39:40 | Blake Morris: ah thanks
+40:51 | (Moderator) Michael Gribben: yep! @Cameron Mayhew and @Autumnal Blake are right about scanf flopping and dying are you type "hello"
+40:57 | (Moderator) Michael Gribben: the while loop condition fails :confused_face:
+41:40 | Blake Morris: What's the point of the rule saying you can't submit the same thing for credit in multiple places
+42:24 | (Moderator) Michael Gribben: @Autumnal Blake is this around submitting course work?
+42:29 | Jman: Don't they mean exactly same thing, therefore copypaste?
+42:29 | Dnyanda Kulkarni: Can we run a while loop on the variable 'result' which returns the value for scanf? 
+42:34 | Blake Morris: Yeah
+42:50 | (Moderator) Michael Gribben: yep!
+43:49 | (Moderator) Michael Gribben: There are rules around self-plagiarism. The point is that we want you to learn :slightly_smiling_face:
+44:24 | Blake Morris: Makes sense
+45:05 | Blake Morris: Would using your own library functions for basic things like doing a selection sort violate that?
+47:05 | (Moderator) Michael Gribben: Nothing like that would be used in this course. However, I'm not entirely on top of the uni's plagiarism policy :confused_face:
+47:13 | Joseph Wong: can we have the size of a variable defined by a constant then?
+47:15 | (Moderator) Michael Gribben: so can't give a definitive answer
+47:24 | Joseph Wong: oh ok lol
+47:35 | Blake Morris: No problem
+47:35 | (Moderator) Michael Gribben: However, if you somehow get the same assignment twice in different courses, you can't just resubmit your old assignment.
+47:37 | Joseph Wong: question answered on the next slide haha
+49:05 | Blake Morris: Is declaring an array with size from a variable a compiler error
+49:51 | Gorb_: Perfect Facer
+50:04 | Ethan: Is it possible to compare the values between int and double?
+50:12 | Keith: :hushed_face:
+50:30 | (Moderator) Michael Gribben: @FEIYUE MA to answer your question earlier, either should work - scanf reads input until it encounters whitespace, a newline or EOF :slightly_smiling_face:
+51:32 | Joseph Wong: are you insinuating mathematicians are not human
+51:36 | (Moderator) Michael Gribben: @Xvan if you compare ints and doubles, the int will be converted to a double then compare it.
+51:54 | TEJ4321 Tejas: what about multiple dimensional arrays like array[x][y]?
+52:04 | Hussain Nawaz: Do the arrays within an array have to be the same size
+52:20 | (Moderator) Michael Gribben: might be weird though because floating point numbers are weird... (1 might actually be 0.99999999)
+52:27 | (Moderator) Michael Gribben: floating point errors are hard :confused_face:
+52:28 | Ethan: So we can do if ( 1 < 1.5) ?
+53:28 | Cameron Mayhew: @TEJ4321 Tejas theres your answer I guess haha
+54:00 | Keith: THe outer array basically corresponds to the rows (y axis) in the grid right?
+54:29 | Vincent Nguyen: which is horizontal and which is vertical?
+54:30 | (Moderator) Michael Gribben: @Xvan yep! I would try to stick to comparing ints to ints and doubles to doubles though.
+54:43 | Cameron Mayhew: i think its similar to the loop structures
+55:09 | Cameron Mayhew: so inside is x outside is y?
+55:13 | ayimarz: does it read horizontally or vertically?
+55:21 | (Moderator) Michael Gribben: @Hussain Nawaz nope the inner and outer arrays don't have to be the same size :slightly_smiling_face:
+55:27 | Ethan: Ok thank you!
+55:38 | EdIsAmbro: CRT noises
+55:43 | Jman: Oh no CRTs
+55:53 | Jman: Any retro gamers?
+56:20 | Shiitaké: i still have my CRT for smash melee
+56:24 | (Moderator) Michael Gribben: ahh i mean it depends how you loop - you can make work with either vertical or horizontal. However, to keep it simple, I would just doing array[x][y] (it's probably what you see more often)
+56:25 | Raiyan Ahmed: is that an input to ur graphics course marc
+56:36 | (Moderator) Michael Gribben: so like outer is x / row and inner is y / column
+56:36 | Justin Kim: unsatisfying
+56:41 | Jman: "The most unsatisfying video in the world"
+56:44 | (Moderator) Michael Gribben: I'm triggered
+56:48 | Angie Liu: why would you make me look at this with my own two eyes
+56:54 | Keith: yeah that GIF is me last night doing lab excersises X___X
+56:56 | BT: are you a masochist 
+57:06 | (Moderator) Michael Gribben: why are you doing this marc :loudly_crying_face:
+57:14 | Yotsuba Desu: I feel frustrated as I watch this
+57:14 | Andrew Wei: always has been
+57:18 | Alex Miao: Can I put int functions which would return integers into int array?
+57:28 | Caleb Watts: *annoyed noises*
+57:35 | TEJ4321 Tejas: watching this hurts me
+57:41 | Bhuvanish Mutharia: this gif is a compilation of my life :slightly_smiling_face:
+57:43 | Anshul Nihar Trivedi: when we have an array [x][y] which is the x and y axis? @Michael Gribben 
+58:05 | Jared: put your camera over the gif so we don't suffer pls
+58:06 | Jman: "art piece"
+58:28 | TEJ4321 Tejas: @Bhuvanish Mutharia me too man
+58:29 | Caleb Watts: Check with @Michael Gribben, @Alex Miao, but I think so 
+58:36 | (Moderator) Michael Gribben: @Alex Miao as in something like array[i] = function()? If so, that's perfectly fine :slightly_smiling_face:
+58:51 | Hyper 1412: @Bhuvanish Mutharia bruh
+58:52 | HEMI: can we have array like array1[array2[ ] ] lol
+59:00 | Alex Miao: Oh ty
+59:02 | Angie Liu: that gif is a visual representation of when you accidentally put a : instead of a ; somewhere in a 100000 line program
+1:02:16 | (Moderator) Michael Gribben: @Anshul Nihar Trivedi it depends on you're looping through them (like you have a while loop inside a while loop) I'll find an image so I can't post code very well here :confused_face:
+1:03:01 | Anshul Nihar Trivedi: ok ty
+1:03:11 | Leo Shi: does anyone use vscode here? how do i create a new file?
+1:03:19 | Leo Shi: (eg. equivalent of gedit in tiger)
+1:03:22 | (Moderator) Michael Gribben: https://overiq.com/media/uploads/conceptual-representation-of-2-d-array-1-1504593656108.png
+1:03:36 | Caleb Watts: *A N G R Y*
+1:03:37 | Angus Chao: is there 3d arrays?
+1:03:47 | Angie Liu: thinking about dropping the course after seeing that honestly jkjk
+1:03:53 | Caleb Watts: Yes
+1:04:03 | EdIsAmbro: there are all almost infinite dimensions to an array
+1:04:05 | Mitchell Wang: can we make one
+1:04:07 | Blake Morris: the gif is a big mood
+1:04:08 | Tuyet Nguyen: @Leo Shi There's a plus file of folder icon at the top where the name of your directory is
+1:04:43 | Andrew Wei: grade is the reward bruh
+1:04:47 | Leo Shi: @Tuyet Nguyen :disappointed_face: but the excitement of creating everything with words instead of buttons
+1:04:52 | raKanoven: #the moment you finish spiral 
+1:05:20 | Tuyet Nguyen: @Leo Shi you win some you lose some lmao
+1:05:22 | (Moderator) Michael Gribben: @Angus Chao yes... you can have as many dimensions as you want (although we will only go up to 2d)
+1:05:47 | EdIsAmbro: the pure serotonin you get from solving even the tiniest coding problems. *chefs kiss*
+1:05:51 | Hussain Nawaz: marc = flat earther?
+1:05:59 | Blake Morris: Marc really did just say earth is flat
+1:06:05 | Keith: he ain't wrong tho @Hussain Nawaz 
+1:06:24 | (Moderator) Michael Gribben: :globe_showing_asia_australia:
+1:06:29 | (Moderator) Michael Gribben: see it's round marc
+1:06:34 | Blake Morris: mario galaxy
+1:06:36 | john xina: Earth-chan is sad now
+1:06:37 | Kevin Chen: flat earth society has members all around the globe
+1:06:40 | Jman: The world is square... minecraft
+1:06:52 | Hussain Nawaz: if the world is flat in computer games, and our world is flat, marc is sayiing we are in a simulation
+1:06:54 | Josh Ramos: @Leo Shi u can use 'code file.c''
+1:06:56 | Jared: no mans sky?
+1:07:00 | Caleb Watts: hmmmmm :thinking_face:
+1:07:04 | Kevin Chen: wait is animal crossing flat
+1:07:07 | Angie Liu: @ NASA thoughts?
+1:07:15 | EdIsAmbro: if (marc == flat earther) respect++;
+1:07:15 | Blake Morris: no it's a cylinder
+1:07:15 | Jman: But there's only void under bedrock, therefore it's actually a flat plane
+1:07:19 | Angie Liu: yeah the animal crossing the road is probably flat
+1:07:34 | Matthew Richards: just follow a space filing curve for tourist :P
+1:07:44 | Caleb Watts: Its a cylinder that accelerates upwards through space at 9.8 m/s^2
+1:07:48 | (Owner) Marc Chee: http://web.cse.unsw.edu.au/~marcchee/lecture07/
+1:07:56 | Leo Shi: @Josh Ramos cool! thanks
+1:09:55 | (Moderator) Michael Gribben: @Anshul Nihar Trivedi btw did that picture help you? axes are weird :confused_face: might be better to think of it in terms of rows and columns for now. I believe for x and y it might be flipped?
+1:10:11 | (Moderator) Michael Gribben: But it might change depending on how you're looping. But this I mean is the x or y going up in the inner or outer loop
+1:10:47 | Caleb Watts: dropped an equal sign on line 33 in tourist.c @Marc Chee
+1:11:34 | (Moderator) Michael Gribben: hehe I wonder when he'll notice :thinking_face:
+1:11:56 | Hussain Nawaz: He's behind you
+1:12:00 | Anshul Nihar Trivedi: Ye I think I understand. So if instead of arr[x][y] it is arr[y][x] the aces swap right? @Michael Gribben 
+1:12:06 | Caleb Watts: right now?
+1:12:50 | Zijie Li: He was so close to the equal sign
+1:12:59 | (Moderator) Michael Gribben: yep! @Anshul Nihar Trivedi It might be worth writing a C program and loop through a 2d array and experiment swapping x and y :slightly_smiling_face:
+1:13:13 | Outskill: posR posC
+1:13:40 | (Moderator) Michael Gribben: I wonder when marc is going to check the chat...
+1:13:46 | James Comninos: he's behind you
+1:13:55 | Anshul Nihar Trivedi: Ok yeah I think I'll do that. Thanks though @Michael Gribben 
+1:14:13 | (Moderator) Michael Gribben: nw
+1:14:17 | (Moderator) Michael Gribben: *no worries
+1:14:43 | Sean Kagan: he's behind you
+1:15:18 | Hussain Nawaz: line 33
+1:15:22 | Outskill: he's in front of you
+1:15:23 | Matthew Richards: oh no. He's behind you
+1:15:24 | Cameron Mayhew: @Marc Chee hes still behind you
+1:15:26 | Jack Smith: no :disappointed_face:
+1:15:27 | Hussain Nawaz: 36*
+1:15:28 | Caleb Watts: line 33
+1:15:31 | Sean Kagan: nope
+1:15:32 | James Comninos: F
+1:15:35 | Tom Forsyth: ==
+1:15:36 | Jman: F in chat
+1:15:41 | Jack Smith: f
+1:15:51 | Cameron Mayhew: 34
+1:15:51 | Caleb Watts: 36
+1:15:52 | Jack Smith: 34
+1:15:54 | (Moderator) Michael Gribben: still can't see it :confused_face:
+1:15:55 | Cameron Mayhew: 34 now
+1:15:55 | Zijie Li: we will fix it when dcc
+1:15:58 | James Comninos: 34
+1:15:58 | Sean Kagan: 34
+1:15:59 | Tom Forsyth: 34
+1:16:00 | Zijie Li: 34
+1:16:00 | Caleb Watts: 34
+1:16:00 | (Moderator) Michael Gribben: look at 34
+1:16:01 | Zijie Li: 34
+1:16:01 | Alex Miao: 34
+1:16:01 | Hussain Nawaz: 34**
+1:16:02 | Caleb Watts: 34
+1:16:04 | Blake Morris: ahahaha
+1:16:07 | Outskill: 34
+1:16:08 | Joseph Fabrello: ==
+1:16:08 | Tom Forsyth: 34
+1:16:09 | Caleb Watts: 34
+1:16:09 | Jono S: F
+1:16:10 | Joseph Fabrello: ==
+1:16:11 | Joseph Fabrello: ==
+1:16:12 | Jono S: ==
+1:16:12 | Joseph Fabrello: ==
+1:16:12 | Joseph Fabrello: ==
+1:16:13 | mispelt: ==
+1:16:13 | Josh Ramos: 34
+1:16:13 | Shiitaké: él no sabe
+1:16:13 | Jman: rule
+1:16:13 | James Comninos: ============
+1:16:15 | _ Schnelli: ==
+1:16:15 | Kovi Smith: ==
+1:16:16 | Jono S: 34
+1:16:18 | Blake Morris: just let him find it when he compiles
+1:16:18 | Joseph Wong: 34 ==
+1:16:21 | Tom Forsyth: ==
+1:16:21 | Jono S: ==
+1:16:21 | Daniel Nguyen: ==
+1:16:22 | Joseph Fabrello: ==
+1:16:22 | Jack Smith: =======
+1:16:22 | Tom Forsyth: ==
+1:16:22 | Joseph Fabrello: ===
+1:16:23 | john xina: HAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHA
+1:16:24 | Prudence Dodds: ==
+1:16:24 | Jennie Nguyen: =======
+1:16:24 | Zijie Li: we will find out when do dcc 
+1:16:24 | john xina: POG
+1:16:25 | mispelt: ==
+1:16:25 | Jono S: ==
+1:16:25 | Jman: ==
+1:16:25 | _ Schnelli: ==
+1:16:26 | mispelt: ==
+1:16:26 | Wenggg: ==
+1:16:27 | john xina: ==
+1:16:28 | Quick Fix And Chill: pos_c == col
+1:16:28 | Cameron Mayhew: pos_c == col
+1:16:29 | Jono S: ==
+1:16:29 | Josh Ramos: bruh
+1:16:29 | _ Schnelli: ==
+1:16:30 | Wobo Head: marc are you on live chat?
+1:16:31 | Joseph Fabrello: ==
+1:16:32 | Kovi Smith: pos_c ==
+1:16:32 | Joseph Fabrello: ==
+1:16:33 | _ Schnelli: ==
+1:16:34 | Prudence Dodds: RIP
+1:16:38 | TEJ4321 Tejas: we did it guys
+1:16:38 | Rei: we did it boys
+1:16:45 | john xina: hell yeah bois
+1:16:48 | Hyper 1412: finally yey
+1:16:55 | Blake Morris: Syntax errors are inveitable
+1:17:01 | Aedan MacNamara: this is .h all over again
+1:17:18 | Prudence Dodds: lolol
+1:17:22 | Hyper 1412: errors are inevitable
+1:17:35 | Jman: "I am inevitable"
+1:17:39 | Waleed Shahid: I AM, INEVITABLE ~ Thanos, Errors
+1:17:42 | EdIsAmbro: the inevitability of errors
+1:17:44 | dwang: is that an endgame reference?
+1:17:47 | TEJ4321 Tejas: marc chee is inevitable
+1:17:48 | dwang: lol
+1:18:04 | (Moderator) Michael Gribben: the compiler screaming at you with errors isn't that bad
+1:18:05 | EdIsAmbro: Spoiler warning MUCH
+1:18:11 | (Moderator) Michael Gribben: they're the easiest bugs to fix :bug:
+1:18:40 | Matthew Richards: style guide goes brrr
+1:18:48 | EdIsAmbro: Thats why I use GCC. the less noise the compiler makes the more serotonin i get solving it
+1:19:26 | EdIsAmbro: although DCC saves time
+1:19:45 | (Moderator) Michael Gribben: I can't tell if that is sarcastic or not... but dcc is really handy for debugging :face_with_tongue: It was made specifically for this course.
+1:20:30 | EdIsAmbro: @Michael Gribben was def sarcastic. dcc makes life easy
+1:20:42 | Angus Chao: since its an integer if row and column is an odd number wouldn't it not be within the centre
+1:21:37 | Caleb Watts: Has the VSCode CSE server been slow for people, its been super annoying recently
+1:21:41 | Caleb Watts: ?
+1:21:54 | (Moderator) Michael Gribben: yeah - it's 10x10 so no centre :slightly_smiling_face:
+1:22:00 | Hussain Nawaz: @Caleb Watts its been pretty bad recently
+1:22:07 | EdIsAmbro: @Caleb Watts yes
+1:22:19 | _ Schnelli: yeah ive had a few issues with it recently as well
+1:22:34 | Caleb Watts: Thought so
+1:23:37 | Gorb_: wsad
+1:23:41 | Caleb Watts: Full size keyboard gang
+1:23:42 | john xina: TKL > full size keyboard
+1:23:52 | DeLuX∆: ^^
+1:23:53 | Gaycob: or even just 65% surely
+1:23:55 | Jared: numberpads are for losers
+1:23:55 | Keith: lol numpads in 2021
+1:23:59 | Caleb Watts: read in chars?
+1:23:59 | Jared: 60%
+1:24:03 | Joseph Fabrello: tkl
+1:24:03 | Hussain Nawaz: @Tao Tao 1800 compact > TKL
+1:24:07 | Jared: 60%
+1:24:08 | Keith: no arrow keys gang
+1:24:12 | Joseph Fabrello: *ratio*
+1:24:16 | (Moderator) Michael Gribben: check the numpad on your phone?
+1:24:23 | Caleb Watts: oof
+1:24:26 | Jared: arrow keys are for wimps
+1:24:36 | john xina: IBM Model M > Cherry Blue Switches
+1:24:40 | TEJ4321 Tejas: marc isnt a gamer...
+1:25:05 | king kong: Cherry switches r trashhhh
+1:25:06 | EdIsAmbro: Lowkey want to join TKL gang buut i want cherry Blues or browns on a full size before I get cherry reds on a TKL :
+1:25:17 | Matthew Richards: Just use ansi sequences for actual cursor keys ;)
+1:26:17 | Hussain Nawaz: @EdIsAmbro get a 96% you get the numpad in the size of a TKL
+1:27:33 | Cameron Mayhew: is there an advantage to having a sentinel vs a condition =! EOF? @Marc Chee 
+1:28:52 | (Moderator) Michael Gribben: @Cameron Mayhew you might want to change the sentinel reasons other than scanf 
+1:29:25 | Outskill: did we learn about the (keep_looking) already?
+1:29:36 | EdIsAmbro: @Hussain Nawaz good point
+1:29:37 | Cameron Mayhew: ah yes makes sense, thank you!
+1:29:38 | (Moderator) Michael Gribben: also probs best to have scanf condition == 1 in this case. Try to get into the habit of testing the success condition (ie scanf == number of variables you are trying to scan in)
+1:29:43 | Hussain Nawaz: would it not be easier to just use a break in this scenario?
+1:30:12 | Cameron Mayhew: i dont think breaks are allowed? could be wrong tho
+1:30:22 | Keenen Roshan: if u just write while (keep_looping) is that saying while keep_looping = 1?
+1:30:28 | (Moderator) Michael Gribben: @Outskill keep_looking is a 'sentinel variable' meaning we want to loop forever until we change this variable to something else
+1:30:32 | Vincent Nguyen: do you need keep_looping ==1 
+1:30:34 | Vincent Nguyen: in the while statement
+1:30:46 | (Moderator) Michael Gribben: breaks are heavily discouraged in this course
+1:30:51 | (Moderator) Michael Gribben: in the style guide
+1:31:06 | Hussain Nawaz: @Michael Gribben is there a specific reason as to why?
+1:31:17 | (Moderator) Michael Gribben: A sentinel variable can do the same thing and is a bit easier for beginners to understand :slightly_smiling_face:
+1:31:21 | Outskill: well, i know keep_looping implies keep_looping == 1, but not sure if we went over it
+1:31:34 | Matthew Richards: @Vincent Nguyen There is no concept of boolean in C. All conditionals return 0 or 1. 0 means false, 1 means true.
+1:31:40 | Blake Morris: rgb numpad
+1:31:42 | Blake Morris: lmao
+1:32:04 | (Moderator) Michael Gribben: From the style guide: "Novice programmers often over-use break statements. producing confusing and difficult to debug code."
+1:32:26 | ayimarz: are we assuming the user has a numpad
+1:32:29 | (Moderator) Michael Gribben: Yep there's no boolean in C @Matthew Richards is right :slightly_smiling_face:
+1:32:40 | (Moderator) Shrey Somaiya: Even those of you who have done programming before will likely over-use break :face_with_tongue: 
+1:32:48 | (Moderator) Michael Gribben: However, a while or if statement will evaluate anything other than 0 as true...
+1:33:21 | (Moderator) Michael Gribben: meaning if keep_looking is 2 or -1 it would also be true - just mentioning in case you get into a nasty bug and are confused :confused_face:
+1:33:53 | Zijie Li: For the if statement in line 32, is it better to do nothing and then it will loop back for another new input since the previous input is invalid
+1:34:08 | Outskill: ohh, ty!
+1:34:11 | Matthew Richards: for simplicity, only use int as boolean if you are sure it's 0 or 1. Catches out lots of people.
+1:34:17 | Jman: *Presses 5
+1:34:24 | Xykeal: do we need the "else if" or is it okay to just stack "if" statements?
+1:34:35 | (Moderator) Michael Gribben: yep agree with @Matthew Richards :slightly_smiling_face:
+1:35:26 | Blake Morris: how would you make this something like nano where it's still in the command line but sort of in its own window
+1:35:29 | Jieshun Wang: row -= 1
+1:35:39 | Matthew Richards: @Xykeal In this case it doesn't really matter. However, if/else if etc is technically faster by a few clock cycles than stacked if.
+1:35:55 | (Moderator) Michael Gribben: hmm @Xykeal interesting question - now that Marc has added an 'else' condition, we do need the else ifs. Reason being, we want all of the else ifs to be false for the else to run
+1:36:14 | (Moderator) Michael Gribben: like only run the else if everything above it are false
+1:36:26 | William Stacey: I'm a bit confused about the purpose of this part of the code "if (input_result != 1) { keep_looping = 0; }". Would you be able to explain it again?
+1:36:45 | Xykeal: i see thanks!
+1:37:27 | Leo Shi: if keep looping becomes 0, then the while loop will stop running since for the while to work, keep looping needs to be 1
+1:37:37 | (Moderator) Michael Gribben: @Zijie Li hmmm interesting question - I think Marc is trying to exit the if statement because the scanf failed. Once the scanf failed, we probably won't get any more input from the user.
+1:37:44 | (Moderator) Michael Gribben: so like just call it quits
+1:37:57 | Zijie Li: cool
+1:38:07 | Hussain Nawaz: @William Stacey scanf returns 1 if there is input. So we are storing that result in input_result. Therefore, if there is no input in scanf input_result will be == 0 and the loop will terminal
+1:38:09 | (Moderator) Michael Gribben: yep! @Leo Shi 's explanation pretty much sums it up @William Stacey 
+1:38:44 | Raiyan Ahmed: is it possible to clear the terminal in c
+1:38:57 | Raiyan Ahmed: so like everytime we input we just clear terminal 
+1:39:05 | (Moderator) Michael Gribben: yep ^^ just a small correction that input_result might be 0 or EOF... so we want to just if it's equal to 1 or not
+1:39:23 | Raiyan Ahmed: No like within code
+1:39:44 | (Moderator) Michael Gribben: That wasn't in C though Marc...
+1:39:48 | Caleb Watts: I think they are asking more if you can clear the shell using C
+1:39:54 | Justin Kim: aye nice
+1:40:08 | Cameron Mayhew: @Marc Chee can you somehow make it that the terminal doesnt need to press enter
+1:40:12 | VIgrimir: actual game
+1:40:15 | Cameron Mayhew: like you dont even see the number it just gets put straight in
+1:40:17 | Matthew Richards: array out of bounds going to happen :)
+1:40:18 | Hussain Nawaz: just have printf("\n\n\n\n\n\n\n\n\n\n\n\....")
+1:40:18 | Keith: what happnes if you go off the map?
+1:40:21 | Andrew Peng: Type ‘chad’ if you think Mark Chee is a chad
+1:40:29 | James Comninos: What happens if i keep going down
+1:40:38 | James Comninos: u*
+1:40:43 | Ershad RASHIDI: how do make it so the t doesnt leave the map
+1:40:43 | William Stacey: Ah, that makes a lot of sense. Thanks!
+1:40:45 | Blake Morris: @Keith You'll get an index OOB error
+1:40:49 | Matthew Richards: You can clear the shell in C by using printf("\033[H\033[J");
+1:40:50 | Cameron Mayhew: damn surely an extension? @Marc Chee 
+1:41:14 | Matthew Richards: ansi escape sequences. Works for most terminals.
+1:41:22 | (Moderator) Michael Gribben: There are escape characters to clear the terminal in C... try experimenting with '\r' :slightly_smiling_face: (there are another ways too)
+1:41:56 | Kalindu Dahanayake: clear
+1:42:10 | Zijie Li: @Ershad RASHIDI We can + or - N-rows if it go out the the boundary 
+1:42:30 | Zijie Li: so if you went out from the right side it will appear to be on the left
+1:42:35 | Zijie Li: same the the columns
+1:43:54 | Matthew Richards: Doing that makes the world a 3d torus
+1:43:58 | Shiitaké: snake is hype
+1:43:58 | Hyper 1412: snake game is so fun
+1:44:06 | Sarthak Jain: Yesss
+1:44:09 | Jman: Snak gam
+1:44:13 | (Moderator) Michael Gribben: :snake:
+1:44:14 | Dawson Yu: what will happen if i move out of the pad
+1:44:14 | Jeremiah Noval: everyone plays snake
+1:44:28 | Jman: F
+1:44:45 | Hussain Nawaz: illegal is a strong word
+1:44:46 | Andrew Peng: :snake::snake::snake:
+1:44:48 | Andrew Wei: stop its illegal
+1:44:49 | Jman: Snak gam Any% Speedrun technique - walking out of bounds
+1:45:04 | EdIsAmbro: aka tourist left the resort and got murdered by the local wildlife
+1:45:18 | EdIsAmbro: Guys its not a bug its a feature
+1:45:24 | Zijie Li: minus n_rows if pos_r >=10
+1:45:33 | (Moderator) Michael Gribben: the tourist got arrested by dcc :confused_face:
+1:45:44 | Zijie Li: plus if it is less than 0
+1:45:45 | Hussain Nawaz: debug left as exercise to user
+1:45:51 | Zijie Li: lol
+1:45:51 | Andrew Wei: classic ubisoft
+1:46:02 | Matthew Richards: tourist has left space itself. 
+1:46:24 | Zijie Li: let's just print a line says the tourist got arrest by going to somewhere illegal 
+1:46:26 | Blake Morris: hehe
+1:46:29 | Blake Morris: ram snake
+1:46:43 | Hussain Nawaz: infinite monkey theorem
+1:46:45 | Jman: MonkaW
+1:47:59 | Matthew Richards: going out of the heap/stack space allocated by the os usually results in an access violation. However, running as root usually allows such behaviour.
+1:48:27 | Caleb Watts: Segmentation fault
+1:48:32 | Gaycob: you could set a border of EXPLORED without printing it>
+1:48:34 | Gaycob: ?
+1:50:27 | (Moderator) Michael Gribben: To prevent the tourist from going outside of the array?
+1:50:38 | Xykeal: oof
+1:50:49 | Gaycob: Yeah
+1:50:54 | Caleb Watts: Yeah
+1:51:27 | Blake Morris: Tourist: aight imma head out
+1:51:38 | Keenen Roshan: does the sentinel loop assume it is 1, and stop when its ? or assume it stays the same as whatever it is assigned to, and stop when it has a different value?
+1:51:44 | Jman: Walked off the edge of the world
+1:51:45 | Jman: And fell into space
+1:51:56 | Scire Schroedinger: walking on sunshine
+1:52:05 | (Moderator) Michael Gribben: Yeah you could! Although you could also check that the pos_r and pos_c are within the bounds (like >= 0 and < 10)
+1:52:37 | Jman: YO I should code tetris into this
+1:52:45 | Srikar Danthurty: @Michael Gribben can we run the VLAB app on our own laptops offline?
+1:53:00 | (Moderator) Michael Gribben: @Keenen Roshan the sentinel starts at 1 and the loop continues while it's 1. And yep, it then stops when you set it to 0.
+1:53:14 | Daniel Nguyen: tetrio
+1:53:45 | (Moderator) Michael Gribben: @Srikar Danthurty unfortunately, you can't run VLAB offline. You can write code (and even install dcc) on your own computer, although the difficulty depends on your operating system.
+1:53:53 | Keenen Roshan: when its 0* sorry and thank !
+1:53:57 | Keenen Roshan: thanks !!
+1:54:05 | Jared: is there a way to do scanf without having to press enter?
+1:54:11 | Jman: Just set every border number to 1
+1:54:15 | Jared: on the input
+1:54:19 | Jman: Or set it to 2 and say "There's a wall here"
+1:54:34 | Matthew Richards: Moving off the edge should print "So long and thanks for all the fish!"
+1:54:43 | Jordan Terz: cyberpunk 2077 be like
+1:54:46 | EdIsAmbro: @Michael Gribben distant "dual boot linux" chants begin
+1:54:49 | (Moderator) Michael Gribben: oooh nice ideas
+1:54:54 | Hussain Nawaz: its a sad moment unless you're playing a ubisoft game. Then its just part of the experience
+1:54:58 | Keith: when ur minecraft mods crashed ur game :(
+1:55:06 | Jman: Print "T fell out of the world"
+1:55:14 | Jordan Terz: me too @Marc Chee 
+1:55:27 | Laura Wrigley-Carr: yesssss
+1:55:28 | Jman: When you install 300 mods into skyrim off the bat and it doesn't even start and you have to immediately reinstall
+1:55:31 | (Moderator) Michael Gribben: @Jared you can use ctrl-d to end input?
+1:55:35 | Blake Morris: or just pull a pacman and loob around to the other side
+1:55:35 | Om Singh: genshin impact always crashes
+1:55:38 | Om Singh: at max settings
+1:55:58 | dwang: wait, this is just bootleg snake
+1:56:00 | dwang: I just realised
+1:56:05 | Caleb Watts: uwu notices Hitch Hikers guide fans
+1:57:00 | Matthew Richards: yes caleb
+1:58:01 | Justin Kim: hahaha
+1:58:12 | Scire Schroedinger: use || all at once kwek
+1:58:17 | VIgrimir: clamping?
+1:58:23 | Shivam: clamping?
+1:58:30 | Dnyanda Kulkarni: Why do we use >=
+1:58:30 | Caleb Watts: Essentially
+1:58:41 | HEMI: what about the corner?
+1:58:47 | Johnie Carino: Mom can we have snake at home?
+1:59:06 | Lorenzo Grillo: on the surface of a torus
+1:59:11 | Caleb Watts: The tourist just became a sci fi game
+1:59:16 | Hussain Nawaz: He's not teleporting, the world is just round
+1:59:19 | Matthew Richards: the world is a torus. It's not teleportation, it's 3d space :P
+1:59:19 | Zijie Li: It's like a map
+1:59:20 | Scire Schroedinger: @Dnyanda Kulkarni >= becasue we start from 0
+1:59:27 | Zijie Li: earth is a sphere
+1:59:50 | Jieshun Wang: he's behind you?
+1:59:50 | (Moderator) Michael Gribben: @Dnyanda Kulkarni we're using >= for N_ROWS because N_ROWS is also illegal :confused_face: Array starts at 0 and goes to N_ROWS - 1
+2:00:04 | Matthew Richards: Spheres can't have a square grid laid out wrapping around at the top and sides.
+2:00:04 | Caleb Watts: As I said before Earth is a cylinder accelerating upwards through space at 9.8m/s^2
+2:00:08 | Blake Morris: You would need to check before you move, wouldn't you
+2:00:21 | Jieshun Wang: if he just runs that it would exit out since it's been there before
+2:00:23 | Jman: Spheres don't exist, everything's just made of squares
+2:00:30 | Mag1c: ^^^
+2:00:39 | Matthew Richards: So if you make top loop to bottom and likewise sides, the shape is a torus.
+2:00:45 | Calvin Liu: make them go to the opposite side of the map
+2:00:46 | Eleanor Dou: can we just make pos_r = N_ROWS instead of N_ROWS -1?
+2:00:48 | Jman: snak gam
+2:00:53 | Justin Kim: call it bootleg snake
+2:01:12 | Mag1c: printf("GG lol")
+2:01:13 | (Moderator) Michael Gribben: @Eleanor Dou N_ROWS is also illegal :confused_face: Array starts at 0 and goes to N_ROWS - 1
+2:01:14 | Jack Smith: "In case I don't see ya, good afternoon, good evening and goodnight."
+2:01:15 | Blake Morris: You already will get the OOB before you correct it
+2:02:02 | Caleb Watts: Good movie
+2:02:04 | Jman: @Mag1c You forgot the semicolon
+2:02:17 | Jman: printf("NotLikeThis");
+2:02:33 | Om Singh: what keyboard do you use? 
+2:02:39 | (Moderator) Michael Gribben: Remember the bonus assignment 1 lecture stream tomorrow at 4pm :face_with_tongue: https://www.youtube.com/watch?v=1hOxps57c-8
+2:02:57 | Mag1c: Yeah i realised after i hit enter @Jman 
+2:03:01 | Cameron Mayhew: can you just loop through the arrays and find out how many 1s?
+2:03:08 | Om Singh: also, for the extra challenge in the assignment, do those marks only count if you havent gotten full marks in the earlier part of the assignment? 
+2:03:09 | Caleb Watts: my battery is low and it is getting dark...
+2:03:09 | Jennie Nguyen: thank youuu
+2:03:23 | (Moderator) Michael Gribben: yep :slightly_smiling_face:
+2:03:27 | Waleed Shahid: cya soon peeps!
+2:03:38 | (Moderator) Michael Gribben: ^^ to cameron
+2:03:46 | Hussain Nawaz: @Caleb Watts :(( rip
+2:04:04 | Waleed Shahid: ty marc!
+2:04:05 | Brendon Z: @Om Singh you need to do the extension component of the assignment to get full marks
+2:04:06 | Waleed Shahid: cya soon
+2:04:08 | James Comninos: thank u
+2:04:10 | Waleed Shahid: ty Michael :grinning_face:
+2:04:10 | Cameron Mayhew: oops sorry for spoiing ahaha
+2:04:11 | Alice Tang: thanks!
+2:04:11 | Pat Tolhurst: thanks
+2:04:13 | Cameron Mayhew: thanks marc!!
+2:04:14 | Johnie Carino: Thanks 
+2:04:14 | Caleb Watts: Cheers Marc
+2:04:15 | Outskill: Thank you!
+2:04:16 | Logan S: thanks
+2:04:16 | CactusTNT: thank you Marc
+2:04:19 | Nick Petrykowycz: thsnkd
+2:04:20 | Euan M: thank you
+2:04:21 | Mal Notyah: thank yoU!
+2:04:23 | Xykeal: thanks!!
+2:04:23 | grace: thank u 
+2:04:24 | Vivian W: thanks Marc!
+2:04:25 | Mag1c: Ty MArc :red_heart:
+2:04:26 | Matthew Richards: Thanks Marc!
+2:04:27 | Hussain Nawaz: Thank you marc!
+2:04:27 | (Moderator) Michael Gribben: @Om Singh the marks for the extension in the assignment are on top of the marks for the rest of the assignment :slightly_smiling_face:
+2:04:32 | Blake Morris: merci, marc
+2:04:32 | Zaldy T: thanks marc
+2:04:32 | Rafajafa: thanks
+2:04:56 | WX: Thanks Marc!
+2:04:58 | Charzinc: So we need to attempt the extension part of the assignment to get full marks
+2:04:59 | Charzinc: ?
+2:05:05 | Om Singh: @Michael Gribben so you cant get full marks without doing the challenge? 
+2:05:05 | Anson Chia: Thanks marc :slightly_smiling_face:
+2:05:20 | Brendon Z: *20% of the marks for this assignment will be based on the performance of any code or tests you write for the Extension component.*
+2:05:31 | Brendon Z: from the assignment release 
+2:05:38 | (Moderator) Michael Gribben: ^^
+2:05:58 | (Moderator) Shrey Somaiya: The bonus live stream tomorrow will go more into depth on the assignment :)
+2:07:05 | CactusTNT: how long will the assignment live stream be?
+2:07:05 | (Moderator) Shrey Somaiya: :thinking_face:
+2:07:09 | Lorenzo Grillo: have we "officially" learnt about what CTRL + D does or no?
+2:07:54 | Brendon Z: @Marc Chee would it be possible to code an extra row and column for the snake game and make it so if the tourist reaches the last row/column it refuses to let them move there? or teleport them back?
+2:07:58 | CactusTNT: alright thank you
+2:08:17 | Lorenzo Grillo: where else can we use Ctrl + D then?
+2:08:22 | Brendon Z: and have the extra rows/columns not be visible to the player 
+2:10:07 | Lorenzo Grillo: is there a way to have an expression that some variable is equal to or not equal to a set of numbers
+2:10:19 | Lorenzo Grillo: like saying x not equal to 2, 4, 6, or 8
+2:11:18 | Brendon Z: thanks that makes sense
+2:15:03 | Zac Sully: Why do we only learn while loops and not for loops?
+2:15:24 | Ryan Lee: Where do i get assignment help?
+2:15:24 | David Moreno: ^
+2:15:44 | (Moderator) Shrey Somaiya: while loops are superior for loops. Everything that's done with a for loop can easily be done with a while loop, but not as easily vice versa...
+2:15:54 | (Moderator) Shrey Somaiya: @Ryan Lee help sessions, labs, forums and your tutor :slightly_smiling_face: 
+2:17:08 | Lorenzo Grillo: ohhh
+2:17:15 | Lorenzo Grillo: i'm dumb - or statements obvs
+2:19:28 | Alan Chan: is print_map a function?
+2:21:11 | Lorenzo Grillo: oh i've seen that in python
+2:22:36 | Blake Morris: "there's no point using switch"
+2:22:41 | Blake Morris: word addition
+2:23:09 | Zac Sully: Perfect answer haha 
+2:24:06 | Lorenzo Grillo: we're not learning, how to program in C
+2:24:13 | Lorenzo Grillo: we're learning how to program, in C
+2:25:40 | Lorenzo Grillo: honestly it's amazing c is still being used
+2:25:43 | Dnyanda Kulkarni: When is your birthday Marc????
+2:25:55 | Lorenzo Grillo: given its 40 years old
+2:26:13 | Lorenzo Grillo: wait no 49 years old!!!
+2:26:23 | Lorenzo Grillo: holy crap thats almost as old as me mum
+2:26:23 | Blake Morris: sadge
+2:28:14 | Evan Williams: it looks like theres an error in the tnt example for the assigment
+2:28:37 | Evan Williams: it could just be me being stupid but im pretty sure its wrong
+2:28:38 | Blake Morris: how about getting help from people outside unsw?
+2:28:57 | (Moderator) Shrey Somaiya: @Evan Williams post on forums and I'll take a look
+2:29:12 | Evan Williams: alright
+2:29:24 | Zac Sully: I couldnt find this on the style page but is there style tips on indentation of comments?
+2:29:34 | Blake Morris: teaching us how to suffer
+2:30:16 | Lorenzo Grillo: aight imma go, gotta finish a scif thing due in 3.5 hours
+2:30:19 | Lorenzo Grillo: thank you marc!
+2:30:31 | Blake Morris: with arrays of strings it's very easy
+2:30:37 | Blake Morris: well, arrays of char[]
+2:30:52 | Blake Morris: yeah we need strings
+2:32:34 | Blake Morris: does gedit have any features to make navigating your code easier, like collapsing loops or functions?
+2:32:51 | Alan Chan: thx
+2:33:11 | Brendon Z: vscode superior :face_with_tongue:
+2:34:48 | Shiitaké: yeah my code output was wrong according to autotest, but the output was the exact same as the reference slide file
+2:36:39 | Evan Williams: @Shrey Somaiya i made a post
+2:37:44 | Blake Morris: table of contents in the header
+2:37:56 | (Moderator) Shrey Somaiya: cheers, i'll take a look
+2:40:00 | Blake Morris: opening photoshop for the first time be like
+2:40:06 | Blake Morris: :eyes:
+2:40:45 | Blake Morris: i basically had to teach my year 9 teacher photoshop...
+2:40:49 | Blake Morris: sad times
+2:42:10 | Blake Morris: i think them being supposed to teach us it is a pretty good reason for them to know it lol
+2:42:35 | Zac Sully: cya ty
