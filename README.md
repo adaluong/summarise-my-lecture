@@ -11,7 +11,6 @@ Watch the product pitch [here](https://www.youtube.com/watch?v=fJBVRQbtfBo&list=
 - `yarn start` to start the frontend
 
 If things aren't working you might have to install the python dependencies
-- `cd backend/`
 - `python3 -m venv venv`
 - `source venv/bin/activate`
 - `pip install -r requirements.txt`
