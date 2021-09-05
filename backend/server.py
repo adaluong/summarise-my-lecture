@@ -8,7 +8,7 @@ from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieve
 from get_video import CouldNotGetName
 from errors import *
 
-APP = Flask(__name__)
+APP = Flask(__name__, static_folder="../build", static_url_path="/")
 
 @APP.errorhandler(APIError)
 def handle_exception(err):
@@ -16,6 +16,10 @@ def handle_exception(err):
     response["message"] = "" if len(err.args) == 0 else err.args[0]
     APP.logger.error(f"{err.description}: {response['message']}")
     return response, err.code
+
+@APP.route("/")
+def index():
+    return APP.send_static_file("index.html")
 
 @APP.route("/transcript", methods=["get"])
 def get_transcript_from_id():
