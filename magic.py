@@ -1,7 +1,7 @@
 # lecture repeats the question
 from fuzzywuzzy import fuzz
-import backend.get_transcript as get_transcript
-import backend.get_chat as get_chat
+import get_transcript
+import get_chat
 
 def magic(transcript, chat):
     keywords = ["ask", "questions", "ask", "question"]

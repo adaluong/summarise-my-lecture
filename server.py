@@ -1,12 +1,12 @@
 from flask import Flask, request
-from backend.get_transcript import id_to_transcript
-from backend.get_chat import id_to_chat, id_to_chat_split
-from backend.magic import magic
-from backend.get_video import id_to_name
-from backend.match_chat import match_chat
+from get_transcript import id_to_transcript
+from get_chat import id_to_chat, id_to_chat_split
+from magic import magic
+from get_video import id_to_name
+from match_chat import match_chat
 from chat_downloader.errors import NoChatReplay, ChatDownloaderError
 from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
-from backend.errors import *
+from errors import *
 
 APP = Flask(__name__, static_folder="../build", static_url_path="/")
 
