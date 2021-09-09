@@ -53,10 +53,7 @@ const Result = () => {
     // fetch sends a query to our server with the id of the Youtube video
     // change the url as required
     fetch(`/title?id=${videoId}`)
-      .then(r => {
-        console.log(r);
-        r.json();
-      })
+      .then(r => r.json())
       .catch(e => setError(e))
       .then(data => {
         if (data.name) {
