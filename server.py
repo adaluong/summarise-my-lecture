@@ -1,14 +1,14 @@
 from flask import Flask, request
 from get_transcript import id_to_transcript
-from get_chat import id_to_chat
+from get_chat import id_to_chat, id_to_chat_split
 from magic import magic
 from get_video import id_to_name
+from match_chat import match_chat
 from chat_downloader.errors import NoChatReplay, ChatDownloaderError
 from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
-from get_video import CouldNotGetName
 from errors import *
 
-APP = Flask(__name__)
+APP = Flask(__name__, static_folder="../build", static_url_path="/")
 
 @APP.errorhandler(APIError)
 def handle_exception(err):
@@ -16,6 +16,10 @@ def handle_exception(err):
     response["message"] = "" if len(err.args) == 0 else err.args[0]
     APP.logger.error(f"{err.description}: {response['message']}")
     return response, err.code
+
+@APP.route("/")
+def index():
+    return APP.send_static_file("index.html")
 
 @APP.route("/transcript", methods=["get"])
 def get_transcript_from_id():
@@ -50,10 +54,11 @@ def get_magic():
 
     try:
         qna = magic(id_to_transcript(video_id), id_to_chat(video_id))
+        qna.extend(match_chat(id_to_chat_split(video_id)))
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
-    except CouldNotRetrieveTranscript:
-        raise APITranscriptError("Transcript could not be retrieved from this video.")
+    except CouldNotRetrieveTranscript as e:
+        raise APITranscriptError(f"Transcript could not be retrieved from this video: {e}")
     except NoChatReplay:
         raise APIChatError("This video does not have a chat replay.")
     except ChatDownloaderError:
