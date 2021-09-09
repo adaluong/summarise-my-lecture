@@ -3,12 +3,17 @@
 body {
   margin: 0;
   font-family: 'Noto Sans JP', 'Helvetica Neue', sans-serif;
+  color: #2c2c2c !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Overpass', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: #44d9e6 !important;
 }
 
 code {

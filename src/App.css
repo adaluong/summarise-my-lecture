@@ -1,6 +1,13 @@
+
+
 .App {
+
 }
 
 .navbar {
   margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  margin-left: 5%;
 }
