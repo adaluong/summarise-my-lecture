@@ -10,16 +10,18 @@
     "formik": "^2.2.9",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
+    "react-bulma-components": "4.0.7",
     "react-dom": "^17.0.2",
     "react-loader-spinner": "^4.0.0",
     "react-promise-tracker": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-backend": "cd backend && venv/bin/flask run",
+    "start-backend": "venv/bin/flask run",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,5 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
