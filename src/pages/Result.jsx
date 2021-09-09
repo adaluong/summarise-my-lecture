@@ -53,7 +53,11 @@ const Result = () => {
     // fetch sends a query to our server with the id of the Youtube video
     // change the url as required
     fetch(`/title?id=${videoId}`)
-      .then(r => r.json())
+      .then(r => {
+        console.log(r);
+        r.json();
+      })
+      .catch(e => setError(e))
       .then(data => {
         if (data.name) {
           setVideoName(data.name);
@@ -71,6 +75,7 @@ const Result = () => {
       trackPromise(
         fetch(`/magic?id=${videoId}`)
           .then(r => r.json())
+          .catch(e => setError(e))
           .then(data => {
             if (data.qna) {
               setQna(data.qna);
