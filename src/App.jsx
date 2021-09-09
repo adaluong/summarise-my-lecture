@@ -5,8 +5,14 @@ import { Link } from 'react-router-dom';
 import Result from './pages/Result';
 import Search from './pages/Search';
 //import { Container, Navbar } from 'react-bootstrap';
-import whitelogo from './white_logo.png';
+import blacklogo from './black_logo_small.png';
 import { Navbar, Image } from 'react-bulma-components';
+
+const theme = {
+  maintext: "#2c2c2c",
+  background: "#fffff",
+  
+};
 
 
 const App = () => {
@@ -17,7 +23,7 @@ const App = () => {
         <Navbar.Brand>
           <Navbar.Item>
             <Link to="/">
-              <Image src={whitelogo} alt="summarise my hackathon logo" size="5"></Image>
+              <Image src={blacklogo} alt="summarise my hackathon logo" size="5"></Image>
             </Link>
           </Navbar.Item>
         </Navbar.Brand>

@@ -28,9 +28,6 @@ const Search = () => {
 
   return (
     <div className="Search">
-      <h1>
-        Summarise My Lecture
-      </h1>
       <Card className="formCard">
         <Card.Header>
           <Nav variant="tabs" defaultActiveKey="youtubeTab">

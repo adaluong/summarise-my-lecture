@@ -89,7 +89,7 @@ const Result = () => {
   return (
     <div className="Result">
       <h1>
-        {videoName}
+        <strong>{videoName}</strong>
       </h1>
       <LoadingIndicator></LoadingIndicator>
       {error && qna !== [] && (
