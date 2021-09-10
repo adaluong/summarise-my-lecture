@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Overpass:wght@300;400;600;700&display=swap');
 
-body {
+body, button, input, optgroup, select, textarea {
   margin: 0;
-  font-family: 'Noto Sans JP', 'Helvetica Neue', sans-serif;
+  font-family: 'Noto Sans JP', 'Helvetica Neue', sans-serif !important;
   color: #2c2c2c !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Overpass', 'Helvetica Neue', sans-serif;
+  font-family: 'Overpass', 'Helvetica Neue', sans-serif !important;
 }
 
 a {

@@ -33,6 +33,10 @@ const App = () => {
         </Navbar>
         <Route exact path='/' component={Search} />
         <Route exact path='/result/:videoId' component={Result} />
+        <footer className="footer">
+          <hr />
+          Made by Eddy, Ada and Angeni
+        </footer>
       </ThemeProvider>
     </Router>
   );
