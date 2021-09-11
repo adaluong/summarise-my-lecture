@@ -1,6 +1,22 @@
+
+
 .App {
+
 }
 
 .navbar {
   margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  margin-left: 5%;
+}
+
+.footer {
+  margin-top: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
 }
