@@ -8,7 +8,7 @@ from chat_downloader.errors import NoChatReplay, ChatDownloaderError
 from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
 from errors import *
 
-APP = Flask(__name__, static_folder="../build", static_url_path="/")
+APP = Flask(__name__, static_folder="./build", static_url_path="/")
 
 @APP.errorhandler(APIError)
 def handle_exception(err):
