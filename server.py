@@ -51,10 +51,11 @@ def get_title():
 @APP.route("/magic", methods=["get"])
 def get_magic():
     video_id = request.args.get("id")
-
     try:
-        qna = magic(id_to_transcript(video_id), id_to_chat(video_id))
-        qna.extend(match_chat(id_to_chat_split(video_id)))
+        transcript = id_to_transcript(video_id)
+        live_chat = id_to_chat_split(video_id)
+        qna = magic(transcript, live_chat)
+        qna.extend(match_chat(live_chat))
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
     except CouldNotRetrieveTranscript as e:

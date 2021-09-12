@@ -1,4 +1,5 @@
-""" MATCH STUDENT QUESTIONS FROM THE LIVE CHAT WITH RESPONSES FROM MODERATORS """
+# matches questions from live chat with responses from moderators 
+
 import get_chat
 import re
 from fuzzywuzzy import fuzz
@@ -6,9 +7,7 @@ from fuzzywuzzy import fuzz
 def get_unique_users(chat):
     """ get a dictionary of unique users from the chat """
     
-    unique_users = {
-    
-    }
+    unique_users = { }
 
     for message in chat:
         unique_users[message['user']] = message['privilege']
@@ -17,6 +16,7 @@ def get_unique_users(chat):
 
 def is_question(message, unique_users, q):
     """ returns the message if it is a question and None if it is not"""
+    
     line = get_tagged_user(message['text'], unique_users)[1]
 
     if '?' in line:
@@ -36,8 +36,9 @@ def is_question(message, unique_users, q):
 
 
 def find_question_expanded(message, unique_users, q):
-    
-    (user_tagged, line) = get_tagged_user(message['text'], unique_users)
+    """ finding potential questions with extra checks"""
+
+    user_tagged = get_tagged_user(message['text'], unique_users)[0]
 
     # check if this message is an answer to another student's question
     if user_tagged != None and unique_users[user_tagged] == 'member':
@@ -51,12 +52,16 @@ def find_question_expanded(message, unique_users, q):
 def get_tagged_user(line, unique_users):
     """ given a chat message, return the user tagged"""
     tagged_user = None
+
     for user in unique_users:
+    
         tagged_user = re.search(f"@{user}\s*", line)
+    
         if tagged_user != None:
             tagged_user = tagged_user.group(0).replace("@", "").strip()
             line = line.replace(f"@{user} ", "")
             break
+    
     return (tagged_user, line)
 
 def find_corresponding_question(chat, tagged_user, prev_mod_index, index, q, unique_users):
@@ -73,8 +78,10 @@ def find_corresponding_question(chat, tagged_user, prev_mod_index, index, q, uni
     # expanding the search space ft. some additional checks
     for i in range(prev_mod_index[1], prev_mod_index[0], -1):
         message = chat[i]
+    
         if message['user'] == tagged_user:
             question = find_question_expanded(message, unique_users, q)
+    
             if question != None:
                 return question
 
@@ -112,12 +119,14 @@ def match_chat(chat):
             else:
                 qna[question] = {
                     "question": question,
-                    "answer": answer,
+                    "answer": f'(MODERATOR) {answer}',
                     "time": message['time'],
                     "user": tagged_user,
-                    "moderator": message['user']
+                    "moderator": message['user'],
+                    "moderator_response": True
                 }
-                
+            
+            # updates qna search space 
             prev_mod_index = (prev_mod_index[0], index)
 
     qna = list(qna.values())

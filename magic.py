@@ -1,60 +1,48 @@
-# lecture repeats the question
+# matches questions from live chat with responses from lecturer/speaker 
+
 from fuzzywuzzy import fuzz
-import get_transcript
-import get_chat
+
+def is_responding_to_chat(transcript_text, i):
+    """ determines if speech from the transcript is in response to the chat"""
+
+    keywords_set = {"ask", "asking", "asks", "asked", "question", "questions", 
+            "chat", "chats", "messages"}
+
+    transcript_line = transcript_text[i]
+    transcript_line_set = set(transcript_line.split(" "))
+    
+    if not keywords_set.isdisjoint(transcript_line_set):
+        speech = transcript_text[i:i+3]
+        answer = transcript_text[i+3:i+20]
+        return (speech, answer)
+    
+    return (None, None)
 
 def magic(transcript, chat):
-    keywords = ["ask", "questions", "ask", "question"]
-    qna = []
+    """ matches questions from live chats with answers from lecture video"""
+    qna = {}
 
     for i in range(len(transcript) - 20):
-        line = transcript[i]
-        line_set = set(line.split(" "))
-        keywords_set = set(keywords)
-        
-        if not keywords_set.isdisjoint(line_set):
-            question = transcript[i:i+3]
-            answer = transcript[i+3:i+20]
 
-            # print(f'Question: {" ".join(question)}\n')
-            # print(f'Answer: {" ".join(answer)}\n')
-        
-            for comment in chat:
-                time = comment.split(" | ")[0]
-                potential_question = comment.split(" | ")[1]
-                if (fuzz.ratio(question, potential_question) > 48):
-                    print(f'{potential_question}')
-                    print(f'Question: {" ".join(question)}') 
-                    print(f'Answer: {" ".join(answer)}\n')
-                    qna.append(
-                        {
-                            "question": " ".join(question),
-                            "answer": " ".join(answer),
-                            "time": time
-                        }
-                    )
+        speech, answer = is_responding_to_chat(transcript, i)
+        if speech == None:
+            continue
 
+        for comment in chat:
+            
+            potential_question = comment['text']
+            answer_time = comment['time']
+
+            # if the lecturer repeats or paraphrases the question
+            if (fuzz.ratio(speech, potential_question) > 50):
+                if potential_question not in qna:
+                    qna[potential_question] = {
+                        "question": potential_question,
+                        "answer": " ".join(answer),
+                        "time": answer_time,
+                        "moderator_response": False,
+                    }
+                    break
+
+    qna = list(qna.values())
     return qna
-
-if __name__ == '__main__':
-    with open("transcript.txt") as f:
-        transcript = [line.strip() for line in f.readlines()]
-
-    with open("chat.txt") as g:
-        chat = [line.strip() for line in g.readlines()]
-
-    videoId = "4WBbrxZguqk"
-    transcript = get_transcript.id_to_transcript(videoId)
-    chat = get_chat.id_to_chat(videoId)
-    
-    print(magic(transcript,chat))
-
-    marc = "what about alphabetical ordering of matt and mark"
-    chat = "What about alphabetical ordering of matt and marc"
-    # print(fuzz.ratio(marc, chat))
-
-    chat2 = "all of the students will do final exam at the same time?"
-
-    marc = "is it just returning one zero or negative one or does it return the magnitude of the difference"
-    chat = "Is it just returning 1/0/-1 or does it return the magnitude of the diffference?"
-    # print(fuzz.ratio(marc, chat))
