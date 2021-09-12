@@ -2,6 +2,7 @@
 from fuzzywuzzy import fuzz
 import get_transcript
 import get_chat
+from errors import NoQuestionsFound
 
 def magic(transcript, chat):
     keywords = ["ask", "questions", "ask", "question"]

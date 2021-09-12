@@ -92,7 +92,7 @@ const Result = () => {
         <strong>{videoName}</strong>
       </h1>
       <LoadingIndicator></LoadingIndicator>
-      {error && qna !== [] && (
+      {error && (
         <Alert variant="danger">
           <Alert.Heading>{error} !</Alert.Heading>
           <p>{errorMessage} <Alert.Link as={Link} to="/">Try again.</Alert.Link></p>

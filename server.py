@@ -53,8 +53,10 @@ def get_magic():
     video_id = request.args.get("id")
 
     try:
-        qna = magic(id_to_transcript(video_id), id_to_chat(video_id))
+        qna = magic([id_to_transcript(video_id)], id_to_chat(video_id))
         qna.extend(match_chat(id_to_chat_split(video_id)))
+        if (len(qna) == 0):
+            raise NoQuestionsFound("No questions found");
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
     except CouldNotRetrieveTranscript as e:
@@ -63,6 +65,8 @@ def get_magic():
         raise APIChatError("This video does not have a chat replay.")
     except ChatDownloaderError:
         raise APIChatError("Chat could not be retrieved from this video.")
+    except NoQuestionsFound:
+        raise APIError("No questions found for this video.")
     except:
         raise APIError("Could not retrieve video details.")
 
