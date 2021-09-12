@@ -1,11 +1,16 @@
 # summarise my lecture
-A web app that extracts questions from live lecture chats and finds the corresponding answer in the lecture recording.
-
-Created in under 24 hours for the 2021 CSESoc Annual Hackathon.
+### https://summarise-my-lecture.herokuapp.com/
+A web app that automatically generates Q&A summaries from a given Youtube video link with questions from live lecture chats and the corresponding answer from moderators in the chat or the lecturer.
 
 Watch the product pitch [here](https://www.youtube.com/watch?v=fJBVRQbtfBo&list=PLtdbwEd-4QWHZTWOyB2W73nn9hwAoLj6c&index=19). 
 
-## how to start
+## how it works
+Paste in lecture video link which was Livestreamed on Youtube, hit the summarise button and our app will:
+- Fetch the transcript and live chat data from the video
+- Use intelligent string matching that employs natural language processing techniques such as Levenshtein distance to return a list of questions asked by students along with the corresponding answers provided by moderators or the lecturer.
+- Provides a timestamp and a direct hyperlink to exactly when the question was answered. 
+
+## getting started
 - `yarn install` to install JS dependencies
 - `yarn start-backend` to start the server
 - `yarn start` to start the frontend
