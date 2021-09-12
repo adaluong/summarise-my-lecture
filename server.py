@@ -57,7 +57,7 @@ def get_magic():
         qna = magic(transcript, live_chat)
         qna.extend(match_chat(live_chat))
         if (len(qna) == 0):
-            raise NoQuestionsFound("No questions found");
+            raise NoQuestionsFound("No questions found")
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
     except CouldNotRetrieveTranscript as e:
