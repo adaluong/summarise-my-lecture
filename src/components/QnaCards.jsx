@@ -26,9 +26,9 @@ class QnaCards extends Component {
       <div className="qna">
         <h1 className="hiddenTitle"><strong>{videoTitle}</strong></h1>
         {qna.map((element, idx) => (
-          <>
+          <div key={idx}>
           <div className="pageBreak" key={`break-${idx}`} />
-          <Card className="qnaCard" key={idx}>
+          <Card className="qnaCard" key={`card${idx}`}>
             <Card.Header className="qnaQuestion">
               <strong><a rel="noreferrer" target="_blank" href={`https://youtube.com/watch?v=${videoId}&t=${timestampToSeconds(element.time)}`}>{element.time}</a> </strong>
               {element.question}
@@ -37,7 +37,7 @@ class QnaCards extends Component {
               <strong>A: </strong>{element.answer}
             </Card.Text>
           </Card>
-          </>
+          </div>
         ))}
       </div>
     )
