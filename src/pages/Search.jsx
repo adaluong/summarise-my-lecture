@@ -72,7 +72,7 @@ const Search = () => {
       
       <div className="landingDescription">
         <h1>No lecture, no worries</h1>
-        <p>Summarise My Lecture takes your lectures from Youtube and extracts the questions asked by students like you, with their answers.</p>
+        <p>Summarise My Lecture takes your lectures from Youtube and extracts the questions asked by students like you, with their answers from the lecturer and chat moderators.</p>
       </div>
       
    </div>
