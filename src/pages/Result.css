@@ -24,3 +24,29 @@ h1 {
 .qnaAnswer {
   padding: 1em;
 }
+
+.buttonDiv {
+  display: flex;
+}
+
+.primaryButton {
+  margin: 1rem auto;
+  min-width: 50px;
+  min-height: 20px;
+  padding: .5rem .9rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #2c2c2c;
+  background-color: #2c2c2c;
+  color: #ffffff !important;
+  transition: background-color 160ms linear;
+}
+
+.primaryButton:hover {
+  background-color: #ffffff;
+  color: #2c2c2c !important;
+  transition: background-color 160ms linear;
+}

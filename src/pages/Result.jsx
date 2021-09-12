@@ -1,12 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useEffect, useState, useRef } from 'react';
+import { useParams, useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Alert, Card } from 'react-bootstrap';
 import './Result.css';
 import { usePromiseTracker, trackPromise } from "react-promise-tracker";
 import Loader from 'react-loader-spinner';
+import { jsPDF } from 'jspdf';
+import html2canvas from 'html2canvas';
+import { useReactToPrint } from 'react-to-print'; 
+import QnaCards from '../components/QnaCards';
 
 const Result = () => {
+  const history = useHistory();
+  const componentRef = useRef();
   const { videoId } = useParams();
   const [qna, setQna] = useState([]);
   const [videoName, setVideoName] = useState("");
@@ -48,6 +54,38 @@ const Result = () => {
     return parseInt(hours) * 3600 + parseInt(minutes) * 60 + parseInt(seconds);
   }
 
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+    documentTitle: `summarised`,
+
+  });
+
+  /*
+  const downloadPDF = () => {
+    
+   
+
+    const input = document.querySelector('.Result');
+    html2canvas(input)
+      .then((canvas) => {
+        const imgData = canvas.toDataURL('temp/png');
+        const pdf = new jsPDF();
+        pdf.addImage(imgData, 'JPEG', 0, 0);
+        pdf.save("temp.pdf");
+        history.push("/temp.pdf");
+      })
+    
+    const doc = new jsPDF();
+    doc.html(document.body, {callback: function (doc) {
+        doc.save("temp.pdf");
+        history.push("/temp.pdf");
+      },
+      x: 10,
+      y: 10
+    });
+  }
+  */
+
   useEffect(() => {
     // this code is executed when the page is loaded/reloaded
     // fetch sends a query to our server with the id of the Youtube video
@@ -86,31 +124,28 @@ const Result = () => {
     }
   }, [loaded])
 
+  useEffect(() => {
+    console.log(qna);
+  }, [qna]);
+
   return (
     <div className="Result">
       <h1>
         <strong>{videoName}</strong>
       </h1>
       <LoadingIndicator></LoadingIndicator>
-      {error && qna !== [] && (
+      {error && (
         <Alert variant="danger">
           <Alert.Heading>{error} !</Alert.Heading>
           <p>{errorMessage} <Alert.Link as={Link} to="/">Try again.</Alert.Link></p>
         </Alert>
       )}
-      <div className="qna">
-      {qna.map((element, idx) => (
-        <Card className="qnaCard" key={idx}>
-          <Card.Header className="qnaQuestion">
-            <strong><a rel="noreferrer" target="_blank" href={`https://youtube.com/watch?v=${videoId}&t=${timestampToSeconds(element.time)}`}>{element.time}</a> </strong>
-            {element.question}
-          </Card.Header>
-          <Card.Text className="qnaAnswer">
-            <strong>A: </strong>{element.answer}
-          </Card.Text>
-        </Card>
-      ))}
-    </div>
+      {qna.length !== 0 && !error && loaded && (
+        <div className="buttonDiv">
+          <button className="primaryButton" onClick={handlePrint}>Download as PDF</button>
+        </div>
+      )}
+      <QnaCards qna={qna} videoId={videoId} ref={componentRef} />
    </div>
   );
 }
