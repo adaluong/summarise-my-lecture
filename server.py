@@ -56,8 +56,9 @@ def get_magic():
         live_chat = id_to_chat_split(video_id)
         qna = magic(transcript, live_chat)
         qna.extend(match_chat(live_chat))
+        qna = sorted(qna, key=lambda k: timestamp_to_seconds(k['time']))
         if (len(qna) == 0):
-            raise NoQuestionsFound("No questions found");
+            raise NoQuestionsFound("No questions found")
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
     except CouldNotRetrieveTranscript as e:
