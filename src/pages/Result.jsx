@@ -37,7 +37,7 @@ const Result = () => {
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    documentTitle: `summarised`,
+    documentTitle: `summarised`
   });
 
 
