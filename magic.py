@@ -31,15 +31,14 @@ def magic(transcript, chat):
         for comment in chat:
             
             potential_question = comment['text']
-            answer_time = comment['time']
 
             # if the lecturer repeats or paraphrases the question
-            if (fuzz.ratio(speech, potential_question) > 50):
+            if (fuzz.ratio(speech, potential_question) > 48):
                 if potential_question not in qna:
                     qna[potential_question] = {
                         "question": potential_question,
                         "answer": " ".join(answer),
-                        "time": answer_time,
+                        "time": comment['time'],
                         "moderator_response": False,
                     }
                     break
