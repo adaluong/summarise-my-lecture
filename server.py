@@ -6,6 +6,7 @@ from get_video import id_to_name
 from match_chat import match_chat
 from chat_downloader.errors import NoChatReplay, ChatDownloaderError
 from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
+from convert_timestamp import timestamp_to_seconds
 from errors import *
 
 APP = Flask(__name__, static_folder="./build", static_url_path="/")
