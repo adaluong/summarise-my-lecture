@@ -4,10 +4,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Result from './pages/Result';
 import Search from './pages/Search';
-//import { Container, Navbar } from 'react-bootstrap';
 import blacklogo from './black_logo.png';
-import { Navbar, Image } from 'react-bulma-components';
+import { Navbar } from 'react-bulma-components';
 import styled, { ThemeProvider } from 'styled-components';
+import ReactGA from 'react-ga';
+import RouteChangeTracker from './components/RouteChangeTracker';
 
 const theme = {
   maintext: "#2c2c2c",
@@ -17,9 +18,12 @@ const theme = {
 
 
 const App = () => {
+  const TRACKING_ID = "G-8S1RYXGMGH";
+  ReactGA.initialize(TRACKING_ID);
   
   return (
     <Router>
+      <RouteChangeTracker />
       <ThemeProvider theme={theme}>
         <Navbar transparent={true}>
           <Navbar.Brand>
