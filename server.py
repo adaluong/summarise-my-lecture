@@ -6,6 +6,7 @@ from get_video import id_to_name
 from match_chat import match_chat
 from chat_downloader.errors import NoChatReplay, ChatDownloaderError
 from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
+from convert_timestamp import timestamp_to_seconds
 from errors import *
 
 APP = Flask(__name__, static_folder="./build", static_url_path="/")
@@ -56,8 +57,9 @@ def get_magic():
         live_chat = id_to_chat_split(video_id)
         qna = magic(transcript, live_chat)
         qna.extend(match_chat(live_chat))
+        qna = sorted(qna, key=lambda k: timestamp_to_seconds(k['time']))
         if (len(qna) == 0):
-            raise NoQuestionsFound("No questions found");
+            raise NoQuestionsFound("No questions found")
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
     except CouldNotRetrieveTranscript as e:
