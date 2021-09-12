@@ -8,7 +8,7 @@ from chat_downloader.errors import NoChatReplay, ChatDownloaderError
 from youtube_transcript_api._errors import TranscriptsDisabled, CouldNotRetrieveTranscript
 from errors import *
 
-APP = Flask(__name__, static_folder="../build", static_url_path="/")
+APP = Flask(__name__, static_folder="./build", static_url_path="/")
 
 @APP.errorhandler(APIError)
 def handle_exception(err):
@@ -56,6 +56,8 @@ def get_magic():
         live_chat = id_to_chat_split(video_id)
         qna = magic(transcript, live_chat)
         qna.extend(match_chat(live_chat))
+        if (len(qna) == 0):
+            raise NoQuestionsFound("No questions found");
     except TranscriptsDisabled:
         raise APITranscriptError("Transcripts have been disabled on this video.")
     except CouldNotRetrieveTranscript as e:
@@ -64,6 +66,8 @@ def get_magic():
         raise APIChatError("This video does not have a chat replay.")
     except ChatDownloaderError:
         raise APIChatError("Chat could not be retrieved from this video.")
+    except NoQuestionsFound:
+        raise APIError("No questions found for this video.")
     except:
         raise APIError("Could not retrieve video details.")
 
