@@ -1,17 +1,14 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import { Alert, Card } from 'react-bootstrap';
+import { Alert } from 'react-bootstrap';
 import './Result.css';
 import { usePromiseTracker, trackPromise } from "react-promise-tracker";
 import Loader from 'react-loader-spinner';
-import { jsPDF } from 'jspdf';
-import html2canvas from 'html2canvas';
 import { useReactToPrint } from 'react-to-print'; 
 import QnaCards from '../components/QnaCards';
 
 const Result = () => {
-  const history = useHistory();
   const componentRef = useRef();
   const { videoId } = useParams();
   const [qna, setQna] = useState([]);
@@ -20,7 +17,7 @@ const Result = () => {
   const [error, setError] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const LoadingIndicator = props => {
+  const LoadingIndicator = () => {
     const { promiseInProgress } = usePromiseTracker();
     return (
       promiseInProgress && loaded &&
@@ -38,53 +35,11 @@ const Result = () => {
     );  
   }
 
-  const timestampToSeconds = (timestamp) => {
-    const splitTime = timestamp.split(":");
-    let hours = 0;
-    let minutes = 0;
-    let seconds = 0;
-    if (splitTime.length === 2) {
-      minutes = splitTime[0];
-      seconds = splitTime[1];
-    } else if (splitTime.length === 3) {
-      hours = splitTime[0];
-      minutes = splitTime[1];
-      seconds = splitTime[2];
-    }
-    return parseInt(hours) * 3600 + parseInt(minutes) * 60 + parseInt(seconds);
-  }
-
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
     documentTitle: `summarised`,
-
   });
 
-  /*
-  const downloadPDF = () => {
-    
-   
-
-    const input = document.querySelector('.Result');
-    html2canvas(input)
-      .then((canvas) => {
-        const imgData = canvas.toDataURL('temp/png');
-        const pdf = new jsPDF();
-        pdf.addImage(imgData, 'JPEG', 0, 0);
-        pdf.save("temp.pdf");
-        history.push("/temp.pdf");
-      })
-    
-    const doc = new jsPDF();
-    doc.html(document.body, {callback: function (doc) {
-        doc.save("temp.pdf");
-        history.push("/temp.pdf");
-      },
-      x: 10,
-      y: 10
-    });
-  }
-  */
 
   useEffect(() => {
     // this code is executed when the page is loaded/reloaded
@@ -123,10 +78,6 @@ const Result = () => {
       );
     }
   }, [loaded])
-
-  useEffect(() => {
-    console.log(qna);
-  }, [qna]);
 
   return (
     <div className="Result">
