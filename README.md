@@ -10,7 +10,8 @@ Paste in lecture video link which was Livestreamed on Youtube, hit the summarise
 - Use intelligent string matching that employs natural language processing techniques such as Levenshtein distance to return a list of questions asked by students along with the corresponding answers provided by moderators or the lecturer.
 - Provides a timestamp and a direct hyperlink to exactly when the question was answered. 
 
-## getting started
+## getting started (running locally)
+- add `"proxy": "http://localhost:5000"` to package.json
 - `yarn install` to install JS dependencies
 - `yarn start-backend` to start the server
 - `yarn start` to start the frontend
