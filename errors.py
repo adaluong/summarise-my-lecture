@@ -16,3 +16,7 @@ class APIVideoError(APIError):
 
 class CouldNotGetName(Exception):
     pass
+
+class NoQuestionsFound(Exception):
+    code = 400
+    description = "No questions found"
